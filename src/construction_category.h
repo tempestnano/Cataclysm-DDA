@@ -3,7 +3,7 @@
 #define CATA_SRC_CONSTRUCTION_CATEGORY_H
 
 #include <cstddef>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "translations.h"

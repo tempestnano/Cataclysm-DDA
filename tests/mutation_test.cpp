@@ -4,8 +4,10 @@
 #include <utility>
 #include <vector>
 
+#include "calendar.h"
 #include "cata_catch.h"
 #include "character.h"
+#include "enum_conversions.h"
 #include "mutation.h"
 #include "npc.h"
 #include "player.h"

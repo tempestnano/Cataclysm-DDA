@@ -2,9 +2,9 @@
 #ifndef CATA_SRC_IUSE_H
 #define CATA_SRC_IUSE_H
 
-#include <iosfwd>
 #include <memory>
-#include <type_traits>
+#include <string>
+#include <utility>
 #include <vector>
 
 #include "clone_ptr.h"

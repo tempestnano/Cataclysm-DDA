@@ -3,7 +3,6 @@
 #define CATA_SRC_BEHAVIOR_H
 
 #include <functional>
-#include <iosfwd>
 #include <string>
 #include <utility>
 #include <vector>

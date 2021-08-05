@@ -2,10 +2,10 @@
 #ifndef CATA_SRC_PROFICIENCY_H
 #define CATA_SRC_PROFICIENCY_H
 
-#include <iosfwd>
+#include <map>
 #include <set>
-#include <vector>
 #include <string>
+#include <vector>
 
 #include "calendar.h"
 #include "color.h"

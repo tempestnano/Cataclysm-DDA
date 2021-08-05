@@ -1,13 +1,13 @@
 #include <cstddef>
-#include <iosfwd>
+#include <string>
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
-#include "activity_type.h"
 #include "debug.h"
 #include "npc.h"
 #include "player_activity.h"
+#include "type_id.h"
 
 namespace std
 {

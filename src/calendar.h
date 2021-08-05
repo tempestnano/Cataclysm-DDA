@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_CALENDAR_H
 #define CATA_SRC_CALENDAR_H
 
-#include <iosfwd>
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -10,10 +10,9 @@
 
 class JsonIn;
 class JsonOut;
-struct lat_long;
-struct rl_vec2d;
 class time_duration;
 class time_point;
+struct rl_vec2d;
 template<typename T> struct enum_traits;
 
 namespace cata

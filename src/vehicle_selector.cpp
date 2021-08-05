@@ -1,5 +1,7 @@
 #include "vehicle_selector.h"
 
+#include <algorithm>
+
 #include "map.h"
 #include "optional.h"
 #include "point.h"

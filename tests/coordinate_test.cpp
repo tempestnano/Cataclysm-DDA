@@ -1,10 +1,9 @@
 #include <functional>
-#include <iosfwd>
 #include <string>
 #include <tuple>
 
-#include "cata_generators.h"
 #include "cata_catch.h"
+#include "cata_generators.h"
 #include "coordinate_conversions.h"
 #include "coordinates.h"
 #include "point.h"

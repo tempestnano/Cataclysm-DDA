@@ -3,9 +3,9 @@
 #define CATA_SRC_ACTION_H
 
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <set>
+#include <string>
 #include <vector>
 
 namespace cata

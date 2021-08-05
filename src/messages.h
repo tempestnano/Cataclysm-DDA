@@ -3,8 +3,7 @@
 #define CATA_SRC_MESSAGES_H
 
 #include <cstddef>
-#include <iosfwd>
-#include <type_traits>
+#include <string>
 #include <utility>
 #include <vector>
 

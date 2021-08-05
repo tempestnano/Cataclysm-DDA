@@ -2,11 +2,9 @@
 
 #include <algorithm>
 #include <cstdlib>
-#include <functional>
 #include <memory>
 #include <unordered_set>
 
-#include "activity_type.h"
 #include "avatar_action.h"
 #include "bionics.h"
 #include "character.h"
@@ -27,6 +25,7 @@
 #include "mapdata.h"
 #include "memorial_logger.h"
 #include "monster.h"
+#include "npc.h"
 #include "omdata.h"
 #include "output.h"
 #include "overmapbuffer.h"

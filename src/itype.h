@@ -4,12 +4,12 @@
 
 #include <array>
 #include <cstddef>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <set>
 #include <string>
 #include <unordered_set>
+#include <utility>
 #include <vector>
 
 #include "bodypart.h"
@@ -18,7 +18,6 @@
 #include "damage.h"
 #include "enums.h" // point
 #include "explosion.h"
-#include "game_constants.h"
 #include "item_pocket.h"
 #include "iuse.h" // use_function
 #include "optional.h"
@@ -36,6 +35,10 @@ class JsonIn;
 class JsonObject;
 class item;
 class player;
+namespace std
+{
+template <typename _Tp> struct hash;
+}  // namespace std
 struct tripoint;
 template <typename E> struct enum_traits;
 

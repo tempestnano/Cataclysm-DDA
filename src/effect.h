@@ -2,7 +2,6 @@
 #ifndef CATA_SRC_EFFECT_H
 #define CATA_SRC_EFFECT_H
 
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>
@@ -15,6 +14,7 @@
 #include "color.h"
 #include "effect_source.h"
 #include "hash_utils.h"
+#include "optional.h"
 #include "translations.h"
 #include "type_id.h"
 

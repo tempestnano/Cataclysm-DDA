@@ -2,13 +2,10 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <functional>
 #include <initializer_list>
 #include <list>
 #include <memory>
-#include <new>
 #include <string>
-#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -21,6 +18,7 @@
 #include "cached_options.h"
 #include "calendar.h"
 #include "cata_assert.h"
+#include "cata_utility.h"
 #include "catacharset.h"
 #include "character.h"
 #include "colony.h"
@@ -39,6 +37,7 @@
 #include "map.h"
 #include "map_selector.h"
 #include "messages.h"
+#include "npc.h"
 #include "optional.h"
 #include "options.h"
 #include "output.h"

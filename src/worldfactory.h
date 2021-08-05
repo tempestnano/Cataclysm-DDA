@@ -4,11 +4,10 @@
 
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <memory>
-#include <vector>
 #include <string>
+#include <vector>
 
 #include "options.h"
 #include "pimpl.h"
@@ -79,9 +78,9 @@ struct WORLD {
         bool load_options();
 };
 
+class input_context;
 class mod_manager;
 class mod_ui;
-class input_context;
 
 using WORLDPTR = WORLD *;
 

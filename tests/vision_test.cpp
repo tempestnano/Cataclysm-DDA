@@ -1,7 +1,6 @@
 #include <functional>
 #include <list>
 #include <memory>
-#include <new>
 #include <sstream>
 #include <string>
 #include <vector>
@@ -9,6 +8,7 @@
 #include "cached_options.h"
 #include "calendar.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "character.h"
 #include "game.h"
 #include "item.h"

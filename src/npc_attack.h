@@ -5,7 +5,6 @@
 #include <vector>
 
 #include "gun_mode.h"
-#include "item.h"
 #include "map_iterator.h"
 #include "optional.h"
 #include "point.h"

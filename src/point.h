@@ -2,13 +2,13 @@
 #ifndef CATA_SRC_POINT_H
 #define CATA_SRC_POINT_H
 
+#include <string>
 // The CATA_NO_STL macro is used by the cata clang-tidy plugin tests so they
 // can include this header when compiling with -nostdinc++
 #ifndef CATA_NO_STL
 
 #include <array>
 #include <climits>
-#include <cstddef>
 #include <cstdint>
 #include <cstdlib>
 #include <functional>

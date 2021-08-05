@@ -2,13 +2,19 @@
 #ifndef CATA_SRC_MAPGENDATA_H
 #define CATA_SRC_MAPGENDATA_H
 
+#include <string>
+#include <unordered_map>
+#include <utility>
+
 #include "calendar.h"
 #include "cata_variant.h"
 #include "coordinates.h"
-#include "json.h"
+#include "debug.h"
 #include "type_id.h"
 #include "weighted_list.h"
 
+class JsonIn;
+class JsonOut;
 class map;
 class mission;
 struct point;

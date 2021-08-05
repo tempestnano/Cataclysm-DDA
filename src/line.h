@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <cmath>
 #include <functional>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "point.h"

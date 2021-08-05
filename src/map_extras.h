@@ -3,9 +3,9 @@
 #define CATA_SRC_MAP_EXTRAS_H
 
 #include <cstdint>
-#include <iosfwd>
 #include <string>
 #include <unordered_map>
+#include <vector>
 
 #include "catacharset.h"
 #include "color.h"

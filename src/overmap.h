@@ -10,22 +10,25 @@
 #include <iosfwd>
 #include <iterator>
 #include <map>
+#include <memory>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 #include <utility>
 #include <vector>
 
 #include "basecamp.h"
+#include "colony.h"
 #include "coordinates.h"
 #include "enums.h"
 #include "game_constants.h"
 #include "mapgendata.h"
 #include "memory_fast.h"
 #include "mongroup.h"
-#include "monster.h"
 #include "omdata.h"
 #include "optional.h"
 #include "overmap_types.h" // IWYU pragma: keep
+#include "pimpl.h"
 #include "point.h"
 #include "rng.h"
 #include "type_id.h"
@@ -35,6 +38,7 @@ class JsonObject;
 class JsonOut;
 class character_id;
 class map_extra;
+class monster;
 class npc;
 class overmap_connection;
 struct regional_settings;

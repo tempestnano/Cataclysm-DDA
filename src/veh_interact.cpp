@@ -5,16 +5,15 @@
 #include <cmath>
 #include <cstdlib>
 #include <functional>
+#include <iosfwd>
 #include <iostream>
 #include <iterator>
 #include <list>
 #include <memory>
-#include <new>
 #include <numeric>
 #include <set>
 #include <sstream>
 #include <string>
-#include <type_traits>
 #include <unordered_set>
 #include <utility>
 
@@ -26,8 +25,6 @@
 #include "catacharset.h"
 #include "character.h"
 #include "character_id.h"
-#include "clzones.h"
-#include "colony.h"
 #include "debug.h"
 #include "enums.h"
 #include "faction.h"

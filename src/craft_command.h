@@ -2,8 +2,7 @@
 #ifndef CATA_SRC_CRAFT_COMMAND_H
 #define CATA_SRC_CRAFT_COMMAND_H
 
-#include <iosfwd>
-#include <new>
+#include <string>
 #include <vector>
 
 #include "optional.h"

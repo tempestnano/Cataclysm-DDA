@@ -8,6 +8,7 @@
 #include <ctime>
 #include <exception>
 #include <functional>
+#include <iosfwd>
 #include <istream>
 #include <memory>
 #include <string>

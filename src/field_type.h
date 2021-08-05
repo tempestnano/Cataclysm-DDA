@@ -5,7 +5,6 @@
 #include <algorithm>
 #include <cstddef>
 #include <cstdint>
-#include <iosfwd>
 #include <set>
 #include <string>
 #include <tuple>
@@ -19,16 +18,13 @@
 #include "effect.h"
 #include "effect_source.h"
 #include "enums.h"
-#include "mapdata.h"
 #include "map_field.h"
+#include "mapdata.h"
 #include "translations.h"
 #include "type_id.h"
 
 class JsonObject;
 template <typename E> struct enum_traits;
-
-class field_entry;
-struct field_proc_data;
 
 enum class description_affix : int {
     DESCRIPTION_AFFIX_IN,
@@ -160,8 +156,6 @@ extern const field_type_str_id fd_fungicidal_gas;
 extern const field_type_str_id fd_insecticidal_gas;
 extern const field_type_str_id fd_smoke_vent;
 extern const field_type_str_id fd_tindalos_rift;
-
-struct field_type;
 
 struct field_type {
     public:

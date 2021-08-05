@@ -9,10 +9,11 @@
 #include <memory>
 #include <set>
 #include <string>
+#include <type_traits>
 #include <vector>
 
-#include "activity_type.h"
 #include "activity_actor_definitions.h"
+#include "activity_type.h"
 #include "avatar.h"
 #include "bionics.h"
 #include "bodypart.h"
@@ -36,6 +37,9 @@
 #include "itype.h"
 #include "iuse.h"
 #include "iuse_actor.h"
+#include "map.h"
+#include "material.h"
+#include "npc.h"
 #include "optional.h"
 #include "options.h"
 #include "output.h"

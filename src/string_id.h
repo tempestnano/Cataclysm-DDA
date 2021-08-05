@@ -5,9 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 #include <functional>
-#include <iosfwd>
 #include <string>
 #include <type_traits>
+#include <utility>
 
 static constexpr int64_t INVALID_VERSION = -1;
 static constexpr int INVALID_CID = -1;

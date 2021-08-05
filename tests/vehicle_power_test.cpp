@@ -1,3 +1,4 @@
+#include <math.h>
 #include <cstdlib>
 #include <vector>
 
@@ -11,7 +12,6 @@
 #include "type_id.h"
 #include "units.h"
 #include "vehicle.h"
-#include "weather.h"
 #include "weather_type.h"
 
 static const itype_id fuel_type_battery( "battery" );

@@ -2,13 +2,13 @@
 #ifndef CATA_SRC_MTYPE_H
 #define CATA_SRC_MTYPE_H
 
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>
 #include <vector>
 
 #include "behavior.h"
+#include "bodypart.h"
 #include "calendar.h"
 #include "color.h"
 #include "damage.h"
@@ -24,6 +24,7 @@
 #include "units.h" // IWYU pragma: keep
 
 class Creature;
+class JsonIn;
 class monster;
 struct dealt_projectile_attack;
 template <typename E> struct enum_traits;

@@ -1,22 +1,20 @@
 #include "game.h"
 
-#include <functional>
-#include <clocale>
 #include <algorithm>
 #include <bitset>
 #include <chrono>
 #include <climits>
 #include <cmath>
-#include <cstddef>
-#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <ctime>
 #include <cwctype>
 #include <exception>
+#include <functional>
 #include <iostream>
 #include <iterator>
 #include <limits>
+#include <locale>
 #include <map>
 #include <memory>
 #include <numeric>
@@ -34,6 +32,7 @@
 
 #include "achievement.h"
 #include "action.h"
+#include "activity_actor.h"
 #include "activity_actor_definitions.h"
 #include "activity_handlers.h"
 #include "activity_type.h"
@@ -71,12 +70,12 @@
 #include "enums.h"
 #include "event.h"
 #include "event_bus.h"
-#include "explosion.h"
 #include "faction.h"
 #include "field.h"
 #include "field_type.h"
 #include "filesystem.h"
 #include "flag.h"
+#include "flat_set.h"
 #include "game_constants.h"
 #include "game_inventory.h"
 #include "game_ui.h"
@@ -84,7 +83,6 @@
 #include "gates.h"
 #include "get_version.h"
 #include "harvest.h"
-#include "help.h"
 #include "iexamine.h"
 #include "init.h"
 #include "input.h"
@@ -118,7 +116,6 @@
 #include "messages.h"
 #include "mission.h"
 #include "mod_manager.h"
-#include "monattack.h"
 #include "monexamine.h"
 #include "monstergenerator.h"
 #include "morale_types.h"

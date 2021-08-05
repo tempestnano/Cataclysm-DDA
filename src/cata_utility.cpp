@@ -1,13 +1,14 @@
 #include "cata_utility.h"
 
-#include <cctype>
-#include <clocale>
 #include <algorithm>
+#include <cctype>
 #include <cmath>
 #include <cstdio>
 #include <exception>
 #include <fstream>
 #include <iterator>
+#include <locale>
+#include <memory>
 #include <sstream>
 #include <stdexcept>
 #include <string>

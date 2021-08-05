@@ -2,13 +2,12 @@
 #ifndef CATA_SRC_OMDATA_H
 #define CATA_SRC_OMDATA_H
 
+#include <algorithm>
 #include <array>
 #include <climits>
 #include <cstddef>
 #include <cstdint>
-#include <iosfwd>
 #include <list>
-#include <new>
 #include <set>
 #include <string>
 #include <vector>
@@ -25,6 +24,7 @@
 #include "translations.h"
 #include "type_id.h"
 
+class mapgendata;
 class overmap_land_use_code;
 struct MonsterGroup;
 struct city;
@@ -33,7 +33,6 @@ template <typename E> struct enum_traits;
 using overmap_land_use_code_id = string_id<overmap_land_use_code>;
 class JsonObject;
 class overmap_connection;
-class overmap_special;
 class overmap_special_batch;
 struct mapgen_arguments;
 struct oter_t;

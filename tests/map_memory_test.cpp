@@ -1,11 +1,9 @@
 #include <bitset>
 #include <cstdio>
-#include <sstream>
-#include <type_traits>
+#include <string>
 
 #include "cata_catch.h"
 #include "game_constants.h"
-#include "json.h"
 #include "lru_cache.h"
 #include "map.h"
 #include "map_memory.h"

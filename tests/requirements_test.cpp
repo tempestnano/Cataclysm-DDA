@@ -1,5 +1,6 @@
+#include <algorithm>
 #include <cstddef>
-#include <iosfwd>
+#include <memory>
 #include <string>
 #include <vector>
 

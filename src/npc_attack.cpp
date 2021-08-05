@@ -1,18 +1,31 @@
 #include "npc_attack.h"
 
+#include <stdlib.h>
+#include <algorithm>
+#include <cmath>
+#include <memory>
+#include <set>
+
 #include "cata_utility.h"
 #include "character.h"
+#include "creature.h"
+#include "damage.h"
+#include "debug.h"
 #include "flag.h"
 #include "game.h"
+#include "game_constants.h"
 #include "item.h"
+#include "line.h"
 #include "magic.h"
 #include "magic_spell_effect_helpers.h"
 #include "map.h"
 #include "messages.h"
 #include "npc.h"
+#include "pimpl.h"
 #include "point.h"
 #include "projectile.h"
 #include "ranged.h"
+#include "ret_val.h"
 
 namespace npc_attack_constants
 {

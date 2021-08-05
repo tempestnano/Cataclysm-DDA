@@ -15,12 +15,12 @@
 #include <curses.h>
 #endif
 
+#include <langinfo.h>
 #include <cstdint>
 #include <cstring>
-#include <iosfwd>
-#include <langinfo.h>
 #include <memory>
 #include <stdexcept>
+#include <string>
 
 #include "cached_options.h"
 #include "catacharset.h"

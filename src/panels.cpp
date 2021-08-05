@@ -1,15 +1,14 @@
 #include "panels.h"
 
 #include <algorithm>
+#include <array>
 #include <cmath>
-#include <cstddef>
 #include <cstdlib>
 #include <iosfwd>
 #include <iterator>
 #include <list>
 #include <memory>
 #include <string>
-#include <type_traits>
 #include <utility>
 
 #include "action.h"
@@ -34,8 +33,8 @@
 #include "input.h"
 #include "item.h"
 #include "json.h"
-#include "make_static.h"
 #include "magic.h"
+#include "make_static.h"
 #include "map.h"
 #include "messages.h"
 #include "move_mode.h"

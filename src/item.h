@@ -2,15 +2,15 @@
 #ifndef CATA_SRC_ITEM_H
 #define CATA_SRC_ITEM_H
 
+#include <stddef.h>
 #include <algorithm>
 #include <climits>
 #include <cstdint>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
-#include <new>
 #include <set>
+#include <string>
 #include <type_traits>
 #include <utility>
 #include <vector>
@@ -18,6 +18,7 @@
 #include "calendar.h"
 #include "cata_utility.h"
 #include "compatibility.h"
+#include "craft_command.h"
 #include "enums.h"
 #include "gun_mode.h"
 #include "io_tags.h"
@@ -45,7 +46,6 @@ class gun_type_type;
 class gunmod_location;
 class item;
 class iteminfo_query;
-class monster;
 class nc_color;
 class player;
 class recipe;
@@ -54,10 +54,6 @@ struct armor_portion_data;
 struct gun_variant_data;
 struct islot_comestible;
 struct itype;
-struct item_comp;
-template<typename CompType>
-struct comp_selection;
-struct tool_comp;
 struct mtype;
 struct tripoint;
 template<typename T>

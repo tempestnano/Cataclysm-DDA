@@ -2,11 +2,9 @@
 #ifndef CATA_SRC_VPART_POSITION_H
 #define CATA_SRC_VPART_POSITION_H
 
-#include <functional>
 #include <cstddef>
-#include <iosfwd>
-#include <new>
-#include <type_traits>
+#include <functional>
+#include <string>
 #include <utility>
 #include <vector>
 

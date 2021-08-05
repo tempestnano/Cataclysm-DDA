@@ -7,11 +7,9 @@
 #include <iterator>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <tuple>
-#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -43,6 +41,7 @@
 #include "itype.h"
 #include "line.h"
 #include "magic.h"
+#include "magic_enchantment.h"
 #include "map.h"
 #include "math_defines.h"
 #include "memory_fast.h"
@@ -55,6 +54,7 @@
 #include "options.h"
 #include "output.h"
 #include "panels.h"
+#include "pimpl.h"
 #include "player.h"
 #include "point.h"
 #include "projectile.h"

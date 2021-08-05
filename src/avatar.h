@@ -2,16 +2,14 @@
 #ifndef CATA_SRC_AVATAR_H
 #define CATA_SRC_AVATAR_H
 
-#include <cstddef>
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <memory>
 #include <string>
 #include <unordered_set>
+#include <utility>
 #include <vector>
 
-#include "calendar.h"
 #include "character.h"
 #include "coordinates.h"
 #include "enums.h"

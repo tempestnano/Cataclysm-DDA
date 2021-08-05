@@ -1,8 +1,8 @@
 #include "martialarts.h"
 
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
-#include <functional>
 #include <iterator>
 #include <map>
 #include <memory>

@@ -5,7 +5,6 @@
 #include <array>
 #include <cmath>
 #include <cstddef>
-#include <iosfwd>
 #include <limits>
 #include <map>
 #include <memory>

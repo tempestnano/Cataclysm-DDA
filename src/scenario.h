@@ -2,9 +2,10 @@
 #ifndef CATA_SRC_SCENARIO_H
 #define CATA_SRC_SCENARIO_H
 
-#include <iosfwd>
+#include <algorithm>
 #include <set>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include "calendar.h"

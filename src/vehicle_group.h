@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_VEHICLE_GROUP_H
 #define CATA_SRC_VEHICLE_GROUP_H
 
-#include <iosfwd>
+#include <string>
 #include <unordered_map>
 #include <vector>
 

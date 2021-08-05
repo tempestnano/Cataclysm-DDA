@@ -3,7 +3,6 @@
 #define CATA_SRC_MAPGEN_H
 
 #include <cstddef>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <string>
@@ -12,17 +11,15 @@
 #include <utility>
 #include <vector>
 
-#include "cata_variant.h"
 #include "coordinates.h"
 #include "json.h"
+#include "mapgen_parameter.h"
 #include "memory_fast.h"
 #include "point.h"
-#include "regional_settings.h"
 #include "type_id.h"
 #include "weighted_list.h"
 
 class map;
-template <typename Id> class mapgen_value;
 class mapgendata;
 class mission;
 struct mapgen_arguments;

@@ -1,5 +1,4 @@
 #include <functional>
-#include <functional>
 #include <list>
 
 #include "cata_catch.h"

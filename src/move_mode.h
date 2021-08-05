@@ -3,8 +3,8 @@
 #define CATA_SRC_MOVE_MODE_H
 
 #include <cstdint>
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <vector>
 
 #include "color.h"

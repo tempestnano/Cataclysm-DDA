@@ -2,10 +2,8 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <iosfwd>
 #include <list>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <vector>
@@ -56,6 +54,7 @@
 #include "translations.h"
 #include "ui.h"
 #include "viewer.h"
+#include "weather.h"
 
 static const activity_id ACT_FIND_MOUNT( "ACT_FIND_MOUNT" );
 static const activity_id ACT_MOVE_LOOT( "ACT_MOVE_LOOT" );

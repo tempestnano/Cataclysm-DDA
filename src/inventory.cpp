@@ -4,8 +4,8 @@
 #include <cmath>
 #include <cstdint>
 #include <cstdlib>
+#include <memory>
 #include <string>
-#include <type_traits>
 
 #include "avatar.h"
 #include "calendar.h"

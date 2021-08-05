@@ -1,5 +1,6 @@
 #include "bodypart.h"
 
+#include <algorithm>
 #include <cstdlib>
 #include <set>
 #include <unordered_map>

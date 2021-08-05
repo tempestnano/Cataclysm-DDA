@@ -3,7 +3,6 @@
 #define CATA_SRC_REQUIREMENTS_H
 
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <numeric>

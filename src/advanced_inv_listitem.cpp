@@ -1,5 +1,7 @@
 #include "advanced_inv_listitem.h"
 
+#include <algorithm>
+
 #include "auto_pickup.h"
 #include "cata_assert.h"
 #include "item.h"

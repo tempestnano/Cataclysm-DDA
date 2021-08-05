@@ -1,5 +1,6 @@
 #include "pathfinding.h"
 
+#include <math.h>
 #include <algorithm>
 #include <array>
 #include <cstdlib>

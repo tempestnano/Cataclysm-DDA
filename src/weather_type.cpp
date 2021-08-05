@@ -9,6 +9,8 @@
 #include "generic_factory.h"
 #include "json.h"
 
+struct dialogue;
+
 namespace
 {
 generic_factory<weather_type> weather_type_factory( "weather_type" );

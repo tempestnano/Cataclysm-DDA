@@ -2,8 +2,6 @@
 
 #include <array>
 #include <memory>
-#include <new>
-#include <string>
 
 #include "avatar.h"
 #include "avatar_action.h"

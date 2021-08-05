@@ -2,11 +2,11 @@
 
 #include <algorithm>
 #include <cstdlib>
+#include <iosfwd>
 #include <istream>
 #include <iterator>
 #include <list>
 #include <memory>
-#include <new>
 #include <numeric>
 #include <set>
 #include <unordered_map>
@@ -37,6 +37,8 @@
 #include "translations.h"
 #include "vehicle.h"
 #include "vpart_position.h"
+
+struct oter_type_t;
 
 #define dbg(x) DebugLog((x),D_GAME) << __FILE__ << ":" << __LINE__ << ": "
 

@@ -3,11 +3,10 @@
 #define CATA_SRC_STRING_FORMATTER_H
 
 #include <cstddef>
-#include <iosfwd>
-#include <new>
 #include <string>
 #include <type_traits>
 #include <typeinfo>
+#include <utility>
 
 // TODO: replace with std::optional
 #include "optional.h"

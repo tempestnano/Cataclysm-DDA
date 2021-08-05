@@ -1,12 +1,11 @@
 #include "computer_session.h"
 
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
 #include <functional>
 #include <memory>
-#include <new>
 #include <string>
-#include <type_traits>
 #include <utility>
 
 #include "avatar.h"
@@ -40,6 +39,7 @@
 #include "mission.h"
 #include "monster.h"
 #include "mtype.h"
+#include "npc.h"
 #include "optional.h"
 #include "options.h"
 #include "output.h"

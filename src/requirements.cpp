@@ -1,5 +1,6 @@
 #include "requirements.h"
 
+#include <math.h>
 #include <algorithm>
 #include <climits>
 #include <cstdlib>

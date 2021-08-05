@@ -10,6 +10,7 @@
 #include <cstring>
 #include <ctime>
 #include <exception>
+#include <functional>
 #include <memory>
 #include <ostream>
 #include <string>

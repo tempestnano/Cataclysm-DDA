@@ -2,10 +2,9 @@
 #ifndef CATA_SRC_MAGIC_ENCHANTMENT_H
 #define CATA_SRC_MAGIC_ENCHANTMENT_H
 
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -19,6 +18,7 @@ class Character;
 class Creature;
 class JsonObject;
 class JsonOut;
+class JsonValue;
 class item;
 
 namespace enchant_vals

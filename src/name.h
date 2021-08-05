@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_NAME_H
 #define CATA_SRC_NAME_H
 
-#include <iosfwd>
+#include <string>
 
 template <typename E> struct enum_traits;
 

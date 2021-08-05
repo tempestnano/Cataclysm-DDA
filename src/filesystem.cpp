@@ -1,6 +1,6 @@
 #include "filesystem.h"
 
-#include <cstddef>
+#include <errno.h>
 // IWYU pragma: no_include <sys/dirent.h>
 // IWYU pragma: no_include <sys/errno.h>
 // FILE I/O
@@ -11,10 +11,9 @@
 #include <cstring>
 #include <deque>
 #include <fstream>
-#include <functional>
 #include <iterator>
 #include <string>
-#include <type_traits>
+#include <utility>
 #include <vector>
 
 #include "cata_utility.h"

@@ -2,19 +2,18 @@
 #ifndef CATA_SRC_ITEM_LOCATION_H
 #define CATA_SRC_ITEM_LOCATION_H
 
-#include <iosfwd>
 #include <memory>
+#include <string>
 
 #include "units_fwd.h"
 
 class Character;
-class character_id;
 class JsonIn;
 class JsonOut;
 class item;
 class map_cursor;
-class vehicle_cursor;
 class talker;
+class vehicle_cursor;
 struct tripoint;
 
 /**

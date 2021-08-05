@@ -5,18 +5,15 @@
 #include <climits>
 #include <cmath>
 #include <cstdlib>
-#include <functional>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <ostream>
 #include <set>
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "activity_type.h"
 #include "ballistics.h"
 #include "bionics.h"
 #include "bodypart.h"
@@ -42,6 +39,7 @@
 #include "game.h"
 #include "game_constants.h"
 #include "gun_mode.h"
+#include "input.h"
 #include "item.h"
 #include "item_stack.h"
 #include "itype.h"

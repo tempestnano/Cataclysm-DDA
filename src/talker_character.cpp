@@ -1,5 +1,8 @@
 #include <memory>
 
+#include "bodypart.h"
+#include "calendar.h"
+#include "character.h"
 #include "character_id.h"
 #include "item.h"
 #include "magic.h"
@@ -11,7 +14,6 @@
 #include "talker_character.h"
 #include "vehicle.h"
 
-class time_duration;
 static const trait_id trait_SEESLEEP( "SEESLEEP" );
 
 std::string talker_character::disp_name() const

@@ -1,4 +1,5 @@
 #include <fstream>
+#include <string>
 
 #include "cata_catch.h"
 #include "coordinates.h"

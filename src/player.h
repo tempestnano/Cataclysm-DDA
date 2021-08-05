@@ -2,17 +2,19 @@
 #ifndef CATA_SRC_PLAYER_H
 #define CATA_SRC_PLAYER_H
 
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <set>
+#include <string>
 #include <type_traits>
 #include <utility>
 #include <vector>
 
 #include "character.h"
 #include "character_id.h"
+#include "compatibility.h"
 #include "creature.h"
+#include "debug.h"
 #include "enums.h"
 #include "game_constants.h"
 #include "item.h"
@@ -24,7 +26,6 @@
 #include "ret_val.h"
 #include "type_id.h"
 
-class craft_command;
 class JsonIn;
 class JsonObject;
 class JsonOut;

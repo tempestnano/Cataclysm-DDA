@@ -1,9 +1,9 @@
 #include "vehicle_group.h"
 
-#include <functional>
 #include <cmath>
 #include <cstddef>
-#include <new>
+#include <functional>
+#include <memory>
 #include <string>
 #include <utility>
 

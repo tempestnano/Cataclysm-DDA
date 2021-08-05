@@ -2,7 +2,6 @@
 #ifndef CATA_SRC_FLAG_H
 #define CATA_SRC_FLAG_H
 
-#include <iosfwd>
 #include <set>
 #include <string>
 #include <vector>

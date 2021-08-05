@@ -4,12 +4,12 @@
 #include <array>
 #include <cmath>
 #include <cstdlib>
+#include <iosfwd>
 #include <memory>
 #include <ostream>
 #include <set>
 #include <tuple>
 
-#include "avatar.h"
 #include "bodypart.h"
 #include "cata_assert.h"
 #include "cata_utility.h"

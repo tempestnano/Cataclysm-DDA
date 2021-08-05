@@ -1,8 +1,9 @@
-#include "cata_catch.h"
-#include "simple_pathfinding.h"
+#include <algorithm>
 
+#include "cata_catch.h"
 #include "coordinates.h"
 #include "point.h"
+#include "simple_pathfinding.h"
 
 template<typename Point>
 static void test_path()

@@ -3,8 +3,6 @@
 
 #include <algorithm>
 #include <cstdlib>
-#include <limits>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>
@@ -23,15 +21,16 @@
 #include "item.h"
 #include "item_group.h"
 #include "json.h"
+#include "magic.h"
 #include "mattack_actors.h"
 #include "monattack.h"
-#include "mondeath.h"
 #include "mondefense.h"
 #include "mongroup.h"
 #include "optional.h"
 #include "options.h"
 #include "pathfinding.h"
 #include "rng.h"
+#include "shearing.h"
 #include "translations.h"
 #include "units.h"
 

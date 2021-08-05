@@ -3,6 +3,7 @@
 #define CATA_SRC_EXPLOSION_H
 
 #include <map>
+#include <string>
 #include <utility>
 #include <vector>
 

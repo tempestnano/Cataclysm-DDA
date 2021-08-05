@@ -2,9 +2,7 @@
 #ifndef CATA_SRC_MISSION_COMPANION_H
 #define CATA_SRC_MISSION_COMPANION_H
 
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <string>
 #include <vector>
 

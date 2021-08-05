@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_MONSTER_ORACLE_H
 #define CATA_SRC_MONSTER_ORACLE_H
 
-#include <iosfwd>
+#include <string>
 
 #include "behavior_oracle.h"
 

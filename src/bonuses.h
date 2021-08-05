@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_BONUSES_H
 #define CATA_SRC_BONUSES_H
 
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <vector>
 
 #include "damage.h"

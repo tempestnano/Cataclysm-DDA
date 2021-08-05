@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_UNITS_H
 #define CATA_SRC_UNITS_H
 
-#include <cctype>
 #include <algorithm>
+#include <cctype>
 #include <cmath>
 #include <cstddef>
 #include <limits>
@@ -14,6 +14,7 @@
 #include <utility>
 #include <vector>
 
+#include "/home/kevingranade/Cataclysm-DDA/src/units_fwd.h"
 #include "json.h"
 #include "math_defines.h"
 #include "translations.h"

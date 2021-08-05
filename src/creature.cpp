@@ -4,7 +4,6 @@
 #include <array>
 #include <cmath>
 #include <cstdlib>
-#include <functional>
 #include <map>
 #include <memory>
 #include <stack>
@@ -15,6 +14,7 @@
 #include "cached_options.h"
 #include "calendar.h"
 #include "cata_assert.h"
+#include "cata_variant.h"
 #include "character.h"
 #include "color.h"
 #include "cursesdef.h"
@@ -44,6 +44,7 @@
 #include "npc.h"
 #include "optional.h"
 #include "output.h"
+#include "player.h"
 #include "point.h"
 #include "projectile.h"
 #include "rng.h"

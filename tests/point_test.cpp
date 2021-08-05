@@ -1,4 +1,7 @@
-#include <iosfwd>
+#include <locale.h>
+#include <locale>
+#include <memory>
+#include <stdexcept>
 #include <string>
 #include <vector>
 

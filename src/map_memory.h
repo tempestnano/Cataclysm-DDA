@@ -2,15 +2,16 @@
 #ifndef CATA_SRC_MAP_MEMORY_H
 #define CATA_SRC_MAP_MEMORY_H
 
-#include <iosfwd>
+#include <algorithm>
+#include <map>
+#include <string>
+#include <vector>
 
 #include "game_constants.h"
 #include "memory_fast.h"
 #include "point.h" // IWYU pragma: keep
 
-class JsonOut;
 class JsonIn;
-class JsonObject;
 class JsonOut;
 
 struct memorized_terrain_tile {

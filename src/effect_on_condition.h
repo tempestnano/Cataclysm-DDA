@@ -2,15 +2,16 @@
 #ifndef CATA_SRC_EFFECT_ON_CONDITION_H
 #define CATA_SRC_EFFECT_ON_CONDITION_H
 
+#include <functional>
 #include <string>
-#include <climits>
+#include <vector>
 
 #include "calendar.h"
 #include "dialogue.h"
-#include "json.h"
-#include "optional.h"
 #include "type_id.h"
 
+class JsonObject;
+class JsonValue;
 template<typename T>
 class generic_factory;
 

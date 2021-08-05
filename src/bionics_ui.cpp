@@ -2,7 +2,6 @@
 
 #include <algorithm> //std::min
 #include <cstddef>
-#include <functional>
 #include <memory>
 #include <string>
 
@@ -21,10 +20,11 @@
 #include "game_inventory.h"
 #include "input.h"
 #include "inventory.h"
+#include "make_static.h"
 #include "material.h"
+#include "npc.h"
 #include "options.h"
 #include "output.h"
-#include "make_static.h"
 #include "pimpl.h"
 #include "string_formatter.h"
 #include "translations.h"

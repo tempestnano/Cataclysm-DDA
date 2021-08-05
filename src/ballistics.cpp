@@ -3,10 +3,9 @@
 #include <algorithm>
 #include <cmath>
 #include <cstddef>
-#include <functional>
-#include <iosfwd>
 #include <memory>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "calendar.h"
@@ -33,7 +32,6 @@
 #include "trap.h"
 #include "type_id.h"
 #include "units.h"
-#include "visitable.h"
 #include "vpart_position.h"
 
 static const efftype_id effect_bounced( "bounced" );

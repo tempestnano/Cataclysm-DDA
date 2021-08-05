@@ -4,11 +4,10 @@
 
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
-#include <new>
 #include <set>
+#include <string>
 #include <type_traits>
 #include <vector>
 

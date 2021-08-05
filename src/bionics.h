@@ -2,11 +2,11 @@
 #ifndef CATA_SRC_BIONICS_H
 #define CATA_SRC_BIONICS_H
 
+#include <algorithm>
 #include <cstddef>
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "calendar.h"

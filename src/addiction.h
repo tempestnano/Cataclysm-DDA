@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_ADDICTION_H
 #define CATA_SRC_ADDICTION_H
 
-#include <iosfwd>
+#include <string>
 
 #include "pldata.h"
 #include "type_id.h"

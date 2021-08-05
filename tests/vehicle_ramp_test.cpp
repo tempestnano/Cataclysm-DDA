@@ -1,7 +1,6 @@
+#include <algorithm>
 #include <array>
-#include <iosfwd>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <vector>

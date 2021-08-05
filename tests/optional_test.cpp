@@ -1,5 +1,4 @@
-#include <new>
-#include <type_traits>
+#include <utility>
 
 #include "cata_catch.h"
 #include "optional.h"

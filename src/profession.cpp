@@ -2,23 +2,23 @@
 
 #include <algorithm>
 #include <cmath>
-#include <functional>
 #include <iterator>
 #include <map>
 #include <memory>
 
-#include "game.h"
 #include "addiction.h"
 #include "avatar.h"
 #include "calendar.h"
 #include "debug.h"
 #include "flag.h"
+#include "game.h"
 #include "generic_factory.h"
 #include "item.h"
 #include "item_group.h"
 #include "itype.h"
 #include "json.h"
 #include "magic.h"
+#include "npc.h"
 #include "options.h"
 #include "pimpl.h"
 #include "player.h"

@@ -5,9 +5,9 @@
 #include <functional>
 #include <iterator>
 #include <list>
-#include <new>
 #include <ostream>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "action.h"

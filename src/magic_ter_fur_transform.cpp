@@ -1,6 +1,4 @@
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>
@@ -15,9 +13,9 @@
 #include "mapdata.h"
 #include "optional.h"
 #include "type_id.h"
+#include "weighted_list.h"
 
 struct tripoint;
-template <typename T> struct weighted_int_list;
 
 namespace
 {

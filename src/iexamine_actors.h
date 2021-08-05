@@ -2,12 +2,19 @@
 #ifndef CATA_SRC_IEXAMINE_ACTORS_H
 #define CATA_SRC_IEXAMINE_ACTORS_H
 
-#include "iexamine.h"
-
 #include <map>
+#include <memory>
+#include <string>
+#include <vector>
 
-class Character;
+#include "iexamine.h"
+#include "optional.h"
+#include "type_id.h"
+
+class JsonObject;
 class item_location;
+class player;
+struct tripoint;
 
 class cardreader_examine_actor : public iexamine_actor
 {

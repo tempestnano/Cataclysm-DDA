@@ -4,7 +4,6 @@
 #include <array>
 #include <cmath>
 #include <cstdlib>
-#include <functional>
 #include <memory>
 #include <string>
 #include <tuple>
@@ -16,9 +15,10 @@
 #include "cata_utility.h"
 #include "character.h"
 #include "color.h"
-#include "craft_command.h"
 #include "debug.h"
+#include "dialogue.h"
 #include "effect.h"
+#include "effect_on_condition.h"
 #include "enums.h"
 #include "event.h"
 #include "event_bus.h"
@@ -41,6 +41,7 @@
 #include "npc.h"
 #include "options.h"
 #include "pickup.h"
+#include "pimpl.h"
 #include "pldata.h"
 #include "recipe.h"
 #include "recipe_dictionary.h"
@@ -48,6 +49,7 @@
 #include "rng.h"
 #include "stomach.h"
 #include "string_formatter.h"
+#include "talker.h"
 #include "translations.h"
 #include "units.h"
 #include "value_ptr.h"

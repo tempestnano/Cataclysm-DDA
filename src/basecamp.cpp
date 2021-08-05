@@ -1,9 +1,7 @@
 #include "basecamp.h"
 
 #include <algorithm>
-#include <functional>
 #include <map>
-#include <new>
 #include <sstream>
 #include <string>
 #include <unordered_set>
@@ -12,6 +10,7 @@
 
 #include "avatar.h"
 #include "calendar.h"
+#include "cata_utility.h"
 #include "character.h"
 #include "character_id.h"
 #include "clzones.h"

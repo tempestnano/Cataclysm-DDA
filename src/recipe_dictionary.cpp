@@ -1,10 +1,10 @@
 #include "recipe_dictionary.h"
 
+#include <ctype.h>
+#include <limits.h>
 #include <algorithm>
 #include <iterator>
 #include <memory>
-#include <new>
-#include <type_traits>
 #include <unordered_map>
 #include <utility>
 
@@ -13,6 +13,7 @@
 #include "crafting_gui.h"
 #include "debug.h"
 #include "init.h"
+#include "input.h"
 #include "item.h"
 #include "item_factory.h"
 #include "itype.h"

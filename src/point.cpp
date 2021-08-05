@@ -1,9 +1,10 @@
 #include "point.h"
 
 #include <algorithm>
+#include <locale>
 #include <sstream>
 #include <string>
-#include <type_traits>
+#include <utility>
 
 #include "debug.h"
 

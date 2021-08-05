@@ -4,9 +4,8 @@
 
 #include <algorithm>
 #include <array>
-#include <cmath>
 #include <functional>
-#include <iosfwd>
+#include <string>
 
 #include "game_constants.h"
 #include "lightmap.h"

@@ -1,12 +1,12 @@
 #include "player.h" // IWYU pragma: associated
 
+#include <math.h>
 #include <array>
 #include <cstdlib>
 #include <memory>
 #include <string>
 
 #include "activity_handlers.h"
-#include "activity_type.h"
 #include "bodypart.h"
 #include "calendar.h"
 #include "character.h"
@@ -18,6 +18,7 @@
 #include "field_type.h"
 #include "fungal_effects.h"
 #include "game.h"
+#include "input.h"
 #include "make_static.h"
 #include "map.h"
 #include "map_iterator.h"

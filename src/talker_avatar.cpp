@@ -3,7 +3,8 @@
 
 #include "avatar.h"
 #include "calendar.h"
-#include "character.h"
+#include "debug.h"
+#include "enums.h"
 #include "game.h"
 #include "messages.h"
 #include "monster.h"

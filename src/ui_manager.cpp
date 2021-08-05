@@ -2,6 +2,7 @@
 
 #include <functional>
 #include <iterator>
+#include <memory>
 #include <vector>
 
 #include "cached_options.h"

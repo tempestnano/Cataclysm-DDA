@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <functional>
 #include <iosfwd>
 #include <iterator>
 #include <list>
@@ -26,6 +25,7 @@
 #include "ret_val.h"
 #include "safe_reference.h"
 #include "string_formatter.h"
+#include "talker.h"
 #include "talker_item.h"
 #include "translations.h"
 #include "units.h"

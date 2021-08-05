@@ -1,11 +1,11 @@
-#include "cata_catch.h"
-
+#include <algorithm>
 #include <array>
 #include <cstddef>
 #include <sstream>
 #include <vector>
 
 #include "calendar.h"
+#include "cata_catch.h"
 #include "enums.h"
 #include "npc.h"
 

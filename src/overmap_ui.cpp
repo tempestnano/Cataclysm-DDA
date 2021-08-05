@@ -1,20 +1,17 @@
 #include "overmap_ui.h"
 
-#include <functional>
 #include <algorithm>
 #include <array>
 #include <chrono>
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
-#include <ratio>
 #include <set>
 #include <string>
 #include <tuple>
+#include <type_traits>
 #include <unordered_map>
 #include <utility>
 #include <vector>
@@ -24,6 +21,7 @@
 #include "basecamp.h"
 #include "cached_options.h"
 #include "calendar.h"
+#include "debug.h"
 #ifdef TILES
 #include "cata_tiles.h"
 #endif // TILES
@@ -72,7 +70,6 @@
 #include "units.h"
 #include "vehicle.h"
 #include "vpart_position.h"
-#include "weather.h"
 #include "weather_gen.h"
 #include "weather_type.h"
 

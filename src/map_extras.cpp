@@ -1,12 +1,11 @@
 #include "map_extras.h"
 
+#include <math.h>
 #include <algorithm>
 #include <array>
 #include <cstdlib>
-#include <functional>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <unordered_map>
 #include <utility>

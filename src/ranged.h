@@ -1,7 +1,7 @@
 #ifndef CATA_SRC_RANGED_H
 #define CATA_SRC_RANGED_H
 
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "point.h"

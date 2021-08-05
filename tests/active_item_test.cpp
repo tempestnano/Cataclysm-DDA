@@ -1,5 +1,4 @@
 #include <list>
-#include <new>
 
 #include "avatar.h"
 #include "calendar.h"

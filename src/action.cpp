@@ -2,10 +2,10 @@
 
 #include <algorithm>
 #include <climits>
+#include <iosfwd>
 #include <istream>
 #include <iterator>
 #include <memory>
-#include <new>
 #include <string>
 #include <utility>
 
@@ -18,6 +18,7 @@
 #include "debug.h"
 #include "flag.h"
 #include "game.h"
+#include "game_constants.h"
 #include "input.h"
 #include "inventory.h"
 #include "item.h"

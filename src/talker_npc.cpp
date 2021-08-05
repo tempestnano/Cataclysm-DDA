@@ -27,6 +27,7 @@
 #include "npc.h"
 #include "npctalk.h"
 #include "npctrade.h"
+#include "optional.h"
 #include "output.h"
 #include "pimpl.h"
 #include "player.h"

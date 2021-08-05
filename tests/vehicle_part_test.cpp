@@ -1,5 +1,5 @@
+#include <algorithm>
 #include <array>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <set>
@@ -7,7 +7,6 @@
 #include <utility>
 #include <vector>
 
-#include "activity_type.h"
 #include "calendar.h"
 #include "cata_catch.h"
 #include "character.h"

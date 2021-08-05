@@ -1,6 +1,6 @@
 #pragma once
 #include <cmath>
-#include <iosfwd>
+#include <string>
 #include <type_traits>
 #ifndef CATA_SRC_UNITS_UTILITY_H
 #define CATA_SRC_UNITS_UTILITY_H

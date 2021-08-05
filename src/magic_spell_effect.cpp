@@ -4,11 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdlib>
-#include <iosfwd>
 #include <iterator>
 #include <map>
 #include <memory>
-#include <new>
 #include <queue>
 #include <set>
 #include <string>
@@ -23,7 +21,6 @@
 #include "color.h"
 #include "coordinates.h"
 #include "creature.h"
-#include "damage.h"
 #include "debug.h"
 #include "enums.h"
 #include "explosion.h"
@@ -44,7 +41,7 @@
 #include "mongroup.h"
 #include "monster.h"
 #include "monstergenerator.h"
-#include "morale.h"
+#include "morale_types.h"
 #include "mtype.h"
 #include "npc.h"
 #include "optional.h"

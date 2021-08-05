@@ -4,7 +4,6 @@
 
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <string> // IWYU pragma: keep
 
 struct tripoint;

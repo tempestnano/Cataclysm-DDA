@@ -3,9 +3,9 @@
 #define CATA_SRC_MONSTERGENERATOR_H
 
 #include <array>
-#include <iosfwd>
 #include <map>
 #include <memory>
+#include <string>
 #include <vector>
 
 #include "enum_bitset.h"

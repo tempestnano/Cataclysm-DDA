@@ -1,16 +1,17 @@
 #include "output.h"
 
-#include <cctype>
+#include <errno.h>
 // IWYU pragma: no_include <sys/errno.h>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <cmath>
 #include <cstdarg>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
 #include <map>
-#include <new>
+#include <memory>
 #include <sstream>
 #include <stack>
 #include <stdexcept>
@@ -21,8 +22,8 @@
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "color.h"
-#include "cursesport.h" // IWYU pragma: keep
 #include "cursesdef.h"
+#include "cursesport.h" // IWYU pragma: keep
 #include "input.h"
 #include "item.h"
 #include "line.h"

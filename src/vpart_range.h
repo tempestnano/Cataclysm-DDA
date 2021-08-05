@@ -2,11 +2,10 @@
 #ifndef CATA_SRC_VPART_RANGE_H
 #define CATA_SRC_VPART_RANGE_H
 
-#include <functional>
 #include <cstddef>
+#include <functional>
 #include <iterator>
-#include <new>
-#include <type_traits>
+#include <utility>
 
 #include "cata_assert.h"
 #include "optional.h"

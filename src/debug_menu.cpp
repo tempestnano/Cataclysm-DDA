@@ -1,6 +1,8 @@
 #include "debug_menu.h"
 
 #include <cstdint>
+#include <iosfwd>
+#include <tuple>
 // IWYU pragma: no_include <sys/signal.h>
 // IWYU pragma: no_include <cxxabi.h>
 
@@ -8,7 +10,6 @@
 #include <array>
 #include <chrono>
 #include <csignal>
-#include <cstdlib>
 #include <iomanip> // IWYU pragma: keep
 #include <iostream>
 #include <iterator>
@@ -16,10 +17,8 @@
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <sstream>
 #include <string>
-#include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
 #include <utility>
@@ -30,18 +29,20 @@
 #include "avatar.h"
 #include "bodypart.h"
 #include "calendar.h"
+#include "cata_assert.h"
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "character.h"
 #include "character_id.h"
 #include "character_martial_arts.h"
-#include "clzones.h"
 #include "color.h"
 #include "coordinates.h"
 #include "creature.h"
+#include "cursesdef.h"
 #include "debug.h"
 #include "dialogue_chatbin.h"
 #include "effect.h"
+#include "effect_on_condition.h"
 #include "effect_source.h"
 #include "enum_conversions.h"
 #include "enums.h"
@@ -68,6 +69,7 @@
 #include "memory_fast.h"
 #include "messages.h"
 #include "mission.h"
+#include "mongroup.h"
 #include "monster.h"
 #include "monstergenerator.h"
 #include "morale_types.h"
@@ -88,6 +90,8 @@
 #include "point.h"
 #include "popup.h"
 #include "recipe_dictionary.h"
+#include "requirements.h"
+#include "ret_val.h"
 #include "rng.h"
 #include "sounds.h"
 #include "stomach.h"

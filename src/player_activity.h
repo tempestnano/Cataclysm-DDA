@@ -4,7 +4,6 @@
 
 #include <climits>
 #include <cstddef>
-#include <iosfwd>
 #include <set>
 #include <string>
 #include <unordered_set>

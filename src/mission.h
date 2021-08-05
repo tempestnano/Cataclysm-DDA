@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_MISSION_H
 #define CATA_SRC_MISSION_H
 
+#include <algorithm>
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <string>
@@ -16,7 +16,6 @@
 #include "enums.h"
 #include "game_constants.h"
 #include "npc_favor.h"
-#include "omdata.h"
 #include "optional.h"
 #include "overmap.h"
 #include "talker.h"
@@ -33,6 +32,7 @@ class item;
 class mission;
 class npc;
 class overmapbuffer;
+struct oter_type_t;
 template<typename T> struct enum_traits;
 
 enum npc_mission : int;

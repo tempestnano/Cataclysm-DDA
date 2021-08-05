@@ -2,6 +2,10 @@
 #ifndef CATA_SRC_OVERMAP_UI_H
 #define CATA_SRC_OVERMAP_UI_H
 
+#include <stddef.h>
+#include <string>
+#include <tuple>
+
 #include "coordinates.h"
 #include "string_id.h"
 
@@ -12,8 +16,8 @@ class window;
 
 class input_context;
 class nc_color;
-
 struct weather_type;
+
 using weather_type_id = string_id<weather_type>;
 
 namespace ui

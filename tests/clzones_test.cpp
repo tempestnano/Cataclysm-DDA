@@ -1,4 +1,4 @@
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "cata_catch.h"

@@ -1,5 +1,5 @@
 #include <cstdio>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "avatar.h"

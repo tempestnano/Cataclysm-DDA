@@ -2,6 +2,8 @@
 
 #include <algorithm>
 
+#include "point.h"
+
 level_cache::level_cache()
 {
     const int map_dimensions = MAPSIZE_X * MAPSIZE_Y;

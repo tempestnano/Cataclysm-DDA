@@ -1,7 +1,9 @@
 #include "scenario.h"
 
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
+#include <unordered_set>
 
 #include "debug.h"
 #include "generic_factory.h"

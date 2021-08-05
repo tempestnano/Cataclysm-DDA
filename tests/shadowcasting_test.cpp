@@ -3,8 +3,9 @@
 #include <chrono>
 #include <cstdio>
 #include <functional>
+#include <memory>
+#include <random>
 #include <sstream>
-#include <type_traits>
 #include <vector>
 
 #include "cata_catch.h"

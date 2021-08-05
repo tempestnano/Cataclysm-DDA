@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_VEH_UTILS_H
 #define CATA_SRC_VEH_UTILS_H
 
-#include <iosfwd>
+#include <string>
 
 #include "type_id.h"
 

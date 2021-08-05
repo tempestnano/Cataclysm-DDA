@@ -2,8 +2,6 @@
 #ifndef CATA_SRC_EFFECT_SOURCE_H
 #define CATA_SRC_EFFECT_SOURCE_H
 
-#include <new>
-
 #include "character_id.h"
 #include "optional.h"
 #include "type_id.h"

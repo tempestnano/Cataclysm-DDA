@@ -1,5 +1,15 @@
+#include <locale.h>
+#include <locale>
+#include <stdexcept>
+
 #include "cata_catch.h"
+#include "ret_val.h"
 #include "try_parse_integer.h"
+
+namespace mpl_
+{
+struct na;
+}  // namespace mpl_
 
 TEMPLATE_TEST_CASE( "try_parse_int_simple_parsing", "[try_parse_integer]", int, long, long long )
 {

@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_KILL_TRACKER_H
 #define CATA_SRC_KILL_TRACKER_H
 
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <vector>
 
 #include "event_subscriber.h"

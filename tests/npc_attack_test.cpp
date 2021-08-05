@@ -1,13 +1,23 @@
-#include "catch/catch.hpp"
+#include <memory>
 
+#include "catch/catch.hpp"
+#include "character.h"
+#include "character_id.h"
+#include "faction.h"
 #include "game.h"
+#include "item.h"
 #include "map.h"
 #include "map_helpers.h"
+#include "monster.h"
 #include "npc.h"
 #include "npc_attack.h"
-#include "npc_class.h"
+#include "optional.h"
 #include "options_helpers.h"
 #include "player_helpers.h"
+#include "point.h"
+#include "type_id.h"
+
+class Creature;
 
 static const mtype_id mon_zombie( "mon_zombie" );
 

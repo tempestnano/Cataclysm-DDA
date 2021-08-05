@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_CRAFTING_GUI_H
 #define CATA_SRC_CRAFTING_GUI_H
 
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 class JsonObject;

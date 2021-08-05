@@ -1,7 +1,6 @@
 #include "butchery_requirements.h"
 
 #include <cstddef>
-#include <functional>
 #include <iterator>
 #include <set>
 #include <string>

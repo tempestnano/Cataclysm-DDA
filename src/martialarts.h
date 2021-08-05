@@ -3,7 +3,6 @@
 #define CATA_SRC_MARTIALARTS_H
 
 #include <cstddef>
-#include <iosfwd>
 #include <set>
 #include <string>
 #include <utility>

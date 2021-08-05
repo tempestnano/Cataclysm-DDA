@@ -17,8 +17,6 @@
 
 #include "simplexnoise.h"
 
-#include <cmath>
-
 /* 2D, 3D and 4D Simplex Noise functions return 'random' values in (-1, 1).
 
 This algorithm was originally designed by Ken Perlin, but my code has been

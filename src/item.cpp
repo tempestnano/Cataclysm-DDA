@@ -1,15 +1,16 @@
 #include "item.h"
 
-#include <clocale>
-#include <cctype>
+#include <errno.h>
+#include <string.h>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <cmath>
-#include <cstdio>
 #include <cstdlib>
 #include <iomanip>
 #include <iterator>
 #include <limits>
+#include <locale>
 #include <memory>
 #include <set>
 #include <sstream>
@@ -29,8 +30,8 @@
 #include "character_id.h"
 #include "character_martial_arts.h"
 #include "clothing_mod.h"
-#include "clzones.h"
 #include "color.h"
+#include "coordinate_conversions.h"
 #include "coordinates.h"
 #include "craft_command.h"
 #include "creature.h"
@@ -92,13 +93,11 @@
 #include "skill.h"
 #include "stomach.h"
 #include "string_formatter.h"
-#include "string_id.h"
 #include "string_id_utils.h"
 #include "text_snippets.h"
 #include "translations.h"
 #include "try_parse_integer.h"
 #include "units.h"
-#include "units_fwd.h"
 #include "units_utility.h"
 #include "value_ptr.h"
 #include "vehicle.h"
@@ -107,6 +106,7 @@
 #include "weather.h"
 #include "weather_gen.h"
 #include "weather_type.h"
+#include "weighted_list.h"
 
 static const std::string GUN_MODE_VAR_NAME( "item::mode" );
 static const std::string CLOTHING_MOD_VAR_PREFIX( "clothing_mod_" );

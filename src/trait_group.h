@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_TRAIT_GROUP_H
 #define CATA_SRC_TRAIT_GROUP_H
 
-#include <iosfwd>
 #include <memory>
+#include <string>
 #include <vector>
 
 #include "type_id.h"

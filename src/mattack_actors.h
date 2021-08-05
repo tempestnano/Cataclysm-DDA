@@ -2,17 +2,18 @@
 #ifndef CATA_SRC_MATTACK_ACTORS_H
 #define CATA_SRC_MATTACK_ACTORS_H
 
+#include <algorithm>
 #include <climits>
-#include <iosfwd>
 #include <map>
 #include <memory>
+#include <string>
 #include <utility>
 #include <vector>
 
-#include "bodypart.h"
 #include "damage.h"
 #include "magic.h"
 #include "mattack_common.h"
+#include "mtype.h"
 #include "translations.h"
 #include "type_id.h"
 #include "weighted_list.h"
@@ -20,7 +21,6 @@
 class Creature;
 class JsonObject;
 class monster;
-struct mon_effect_data;
 
 class leap_actor : public mattack_actor
 {

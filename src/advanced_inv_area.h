@@ -3,7 +3,7 @@
 #define CATA_SRC_ADVANCED_INV_AREA_H
 
 #include <array>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "item_location.h"

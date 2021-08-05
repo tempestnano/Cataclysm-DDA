@@ -1,24 +1,27 @@
-#include "cata_catch.h"
-#include "item.h"
-
 #include <cmath>
 #include <initializer_list>
 #include <limits>
+#include <list>
 #include <memory>
+#include <string>
 #include <vector>
 
 #include "avatar.h"
 #include "calendar.h"
+#include "cata_catch.h"
 #include "enums.h"
 #include "flag.h"
 #include "game.h"
+#include "item.h"
 #include "item_factory.h"
 #include "item_pocket.h"
 #include "itype.h"
 #include "math_defines.h"
 #include "monstergenerator.h"
 #include "mtype.h"
+#include "optional.h"
 #include "player_helpers.h"
+#include "point.h"
 #include "ret_val.h"
 #include "type_id.h"
 #include "units.h"

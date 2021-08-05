@@ -3,9 +3,8 @@
 #define CATA_SRC_MAGIC_H
 
 #include <functional>
-#include <iosfwd>
 #include <map>
-#include <new>
+#include <memory>
 #include <queue>
 #include <set>
 #include <string>

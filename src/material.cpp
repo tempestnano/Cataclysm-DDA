@@ -1,12 +1,11 @@
 #include "material.h"
 
 #include <algorithm>
-#include <iterator>
 #include <map>
+#include <memory>
 #include <set>
 
 #include "assign.h"
-#include "calendar.h"
 #include "debug.h"
 #include "generic_factory.h"
 #include "item.h"

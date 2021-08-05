@@ -1,9 +1,9 @@
-#include <iosfwd>
 #include <memory>
 #include <string>
 #include <vector>
 
 #include "avatar.h"
+#include "bodypart.h"
 #include "calendar.h"
 #include "cata_catch.h"
 #include "character.h"
@@ -12,10 +12,12 @@
 #include "effect.h"
 #include "effect_source.h"
 #include "game.h"
+#include "item.h"
 #include "map.h"
 #include "map_helpers.h"
 #include "monster.h"
 #include "npc.h"
+#include "player.h"
 #include "player_helpers.h"
 #include "point.h"
 #include "type_id.h"

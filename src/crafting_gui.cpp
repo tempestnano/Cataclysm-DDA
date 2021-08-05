@@ -7,9 +7,11 @@
 #include <functional>
 #include <iterator>
 #include <map>
-#include <new>
+#include <memory>
 #include <set>
+#include <sstream>
 #include <string>
+#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -20,6 +22,7 @@
 #include "color.h"
 #include "crafting.h"
 #include "cursesdef.h"
+#include "flat_set.h"
 #include "input.h"
 #include "inventory.h"
 #include "item.h"

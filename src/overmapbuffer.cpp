@@ -1,5 +1,6 @@
 #include "overmapbuffer.h"
 
+#include <stddef.h>
 #include <algorithm>
 #include <climits>
 #include <iterator>

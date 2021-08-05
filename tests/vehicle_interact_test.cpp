@@ -1,5 +1,4 @@
-#include <functional>
-#include <iosfwd>
+#include <algorithm>
 #include <string>
 #include <vector>
 

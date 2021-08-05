@@ -3,10 +3,8 @@
 #define CATA_SRC_IUSE_ACTOR_H
 
 #include <climits>
-#include <iosfwd>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>

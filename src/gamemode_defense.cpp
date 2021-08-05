@@ -2,7 +2,7 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <functional>
+#include <iosfwd>
 #include <memory>
 #include <ostream>
 #include <string>
@@ -27,6 +27,7 @@
 #include "monster.h"
 #include "monstergenerator.h"
 #include "mtype.h"
+#include "omdata.h"
 #include "output.h"
 #include "overmap.h"
 #include "overmapbuffer.h"

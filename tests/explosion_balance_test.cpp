@@ -1,7 +1,8 @@
+#include <math.h>
 #include <cstddef>
-#include <functional>
 #include <memory>
 #include <sstream>
+#include <string>
 #include <vector>
 
 #include "avatar.h"
@@ -19,7 +20,6 @@
 #include "test_statistics.h"
 #include "type_id.h"
 #include "units.h"
-#include "veh_type.h"
 #include "vehicle.h"
 #include "vpart_position.h"
 #include "vpart_range.h"

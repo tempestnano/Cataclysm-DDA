@@ -5,7 +5,6 @@
 #include <functional>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <unordered_map>
@@ -13,6 +12,7 @@
 #include <utility>
 #include <vector>
 
+#include "assign.h"
 #include "avatar.h"
 #include "calendar.h"
 #include "character.h"
@@ -25,19 +25,23 @@
 #include "json.h"
 #include "line.h"
 #include "map.h"
-#include "mapdata.h"
 #include "mission.h"
 #include "npc.h"
 #include "optional.h"
 #include "overmap.h"
 #include "overmapbuffer.h"
+#include "pimpl.h"
+#include "player.h"
 #include "point.h"
 #include "recipe_groups.h"
+#include "rng.h"
 #include "talker.h"
 #include "type_id.h"
 #include "units.h"
 #include "vehicle.h"
 #include "vpart_position.h"
+#include "weather.h"
+#include "weather_gen.h"
 
 class basecamp;
 class recipe;

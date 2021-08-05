@@ -1,10 +1,11 @@
 #include "translations.h"
 
-#include <clocale>
+#include <stdlib.h>
+#include <string.h>
 #include <array>
-#include <functional>
+#include <clocale>
 #include <iterator>
-#include <new>
+#include <locale>
 
 #if defined(LOCALIZE) && defined(__STRICT_ANSI__)
 #undef __STRICT_ANSI__ // _putenv in minGW need that
@@ -65,13 +66,17 @@ int detail::get_current_language_version()
 #   include "platform_win.h"
 #endif
 #   include "mmsystem.h"
+
 static std::string getWindowsLanguage();
 #elif defined(__APPLE__)
 #include <CoreFoundation/CFLocale.h>
+
 static std::string getAppleSystemLanguage();
 #elif defined(__ANDROID__)
 #include <jni.h>
+
 #include "sdl_wrappers.h" // for SDL_AndroidGetJNIEnv()
+
 static std::string getAndroidSystemLanguage();
 #endif
 

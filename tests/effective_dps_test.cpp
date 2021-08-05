@@ -1,6 +1,8 @@
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
-#include <iostream>
+#include <functional>
+#include <string>
 
 #include "avatar.h"
 #include "cata_catch.h"
@@ -8,11 +10,9 @@
 #include "melee.h"
 #include "monster.h"
 #include "player_helpers.h"
-#include "sounds.h"
 #include "ret_val.h"
+#include "sounds.h"
 #include "type_id.h"
-
-struct itype;
 
 // Run a large number of trials of a player attacking a monster with a given weapon,
 // and return the average damage done per second.

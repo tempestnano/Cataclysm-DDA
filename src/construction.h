@@ -2,11 +2,10 @@
 #ifndef CATA_SRC_CONSTRUCTION_H
 #define CATA_SRC_CONSTRUCTION_H
 
+#include <algorithm>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>

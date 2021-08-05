@@ -2,31 +2,27 @@
 #ifndef CATA_SRC_CHARACTER_H
 #define CATA_SRC_CHARACTER_H
 
-#include <functional>
 #include <algorithm>
 #include <bitset>
 #include <climits>
 #include <cstdint>
 #include <functional>
-#include <iosfwd>
 #include <limits>
 #include <list>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
-#include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
 #include <utility>
 #include <vector>
 
 #include "activity_tracker.h"
-#include "activity_type.h"
 #include "bodypart.h"
 #include "calendar.h"
 #include "cata_utility.h"
 #include "character_id.h"
+#include "compatibility.h"
 #include "coordinates.h"
 #include "craft_command.h"
 #include "creature.h"
@@ -34,6 +30,7 @@
 #include "enums.h"
 #include "flat_set.h"
 #include "game_constants.h"
+#include "inventory.h"
 #include "item.h"
 #include "item_location.h"
 #include "item_pocket.h"
@@ -66,7 +63,6 @@ class dispersion_sources;
 class effect;
 class effect_source;
 class faction;
-class inventory;
 class known_magic;
 class ma_technique;
 class map;
@@ -91,6 +87,7 @@ struct mutation_branch;
 struct needs_rates;
 struct pathfinding_settings;
 struct points_left;
+struct projectile;
 struct requirement_data;
 struct tool_comp;
 struct trap;

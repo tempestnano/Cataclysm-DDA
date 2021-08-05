@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <memory>
 #include <ostream>
-#include <vector>
+#include <string>
 
 #include "avatar.h"
 #include "calendar.h"

@@ -7,6 +7,7 @@
 
 #include "avatar.h"
 #include "calendar.h"
+#include "catacharset.h"
 #include "color.h"
 #include "debug.h"
 #include "input.h"

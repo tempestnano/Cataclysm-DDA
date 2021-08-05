@@ -5,7 +5,6 @@
 #include <memory>
 #include <set>
 #include <stdexcept>
-#include <type_traits>
 #include <vector>
 
 #include "assign.h"
@@ -15,6 +14,7 @@
 #include "enums.h"
 #include "generic_factory.h"
 #include "json.h"
+#include "magic_enchantment.h"
 #include "make_static.h"
 #include "memory_fast.h"
 #include "string_formatter.h"

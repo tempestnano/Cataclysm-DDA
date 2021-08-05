@@ -6,11 +6,9 @@
 #include <cstdlib>
 #include <limits>
 #include <string>
+#include <tuple>
 
-#include "cata_assert.h"
-#include "cata_utility.h"
 #include "debug.h"
-#include "enum_conversions.h"
 #include "line.h"
 #include "optional.h"
 #include "options.h"

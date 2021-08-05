@@ -2,9 +2,10 @@
 #ifndef CATA_SRC_OVERMAP_CONNECTION_H
 #define CATA_SRC_OVERMAP_CONNECTION_H
 
-#include <iosfwd>
+#include <algorithm>
 #include <list>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "int_id.h"

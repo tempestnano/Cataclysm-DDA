@@ -5,14 +5,15 @@
 #include <array>
 #include <bitset>
 #include <cstddef>
-#include <iosfwd>
 #include <set>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include "calendar.h"
 #include "clone_ptr.h"
 #include "color.h"
+#include "iexamine.h"
 #include "translations.h"
 #include "type_id.h"
 #include "units.h"
@@ -24,7 +25,6 @@ using ter_str_id = string_id<ter_t>;
 
 class JsonObject;
 class player;
-struct iexamine_actor;
 struct furn_t;
 struct itype;
 struct tripoint;

@@ -1,6 +1,5 @@
 #include "player.h"
 
-#include <functional>
 #include <algorithm>
 #include <climits>
 #include <cmath>
@@ -9,13 +8,11 @@
 #include <iterator>
 #include <map>
 #include <memory>
-#include <new>
 #include <string>
 #include <unordered_map>
 
 #include "action.h"
 #include "activity_actor_definitions.h"
-#include "activity_type.h"
 #include "ammo.h"
 #include "avatar.h"
 #include "avatar_action.h"
@@ -24,7 +21,6 @@
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "character_martial_arts.h"
-#include "clzones.h"
 #include "color.h"
 #include "coordinates.h"
 #include "damage.h"
@@ -46,6 +42,7 @@
 #include "item_pocket.h"
 #include "itype.h"
 #include "line.h"
+#include "magic_enchantment.h"
 #include "make_static.h"
 #include "map.h"
 #include "map_iterator.h"
@@ -62,7 +59,6 @@
 #include "overmapbuffer.h"
 #include "pimpl.h"
 #include "player_activity.h"
-#include "pldata.h"
 #include "profession.h"
 #include "requirements.h"
 #include "rng.h"

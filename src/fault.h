@@ -2,9 +2,7 @@
 #ifndef CATA_SRC_FAULT_H
 #define CATA_SRC_FAULT_H
 
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 

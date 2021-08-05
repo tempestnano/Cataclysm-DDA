@@ -1,7 +1,9 @@
 #include "mission.h" // IWYU pragma: associated
 
+#include <algorithm>
 #include <memory>
-#include <new>
+#include <set>
+#include <type_traits>
 #include <vector>
 
 #include "character.h"

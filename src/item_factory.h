@@ -3,7 +3,6 @@
 #define CATA_SRC_ITEM_FACTORY_H
 
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <memory>
@@ -16,6 +15,7 @@
 #include "item.h"
 #include "itype.h"
 #include "iuse.h"
+#include "optional.h"
 #include "type_id.h"
 
 class Item_group;

@@ -27,6 +27,7 @@
 #include "clzones.h"
 #include "colony.h"
 #include "coordinate_conversions.h"
+#include "coordinates.h"
 #include "creature.h"
 #include "cuboid_rectangle.h"
 #include "debug.h"

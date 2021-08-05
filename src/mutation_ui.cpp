@@ -2,8 +2,7 @@
 
 #include <algorithm> //std::min
 #include <cstddef>
-#include <functional>
-#include <new>
+#include <memory>
 #include <string>
 #include <unordered_map>
 

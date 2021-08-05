@@ -3,7 +3,7 @@
 #define CATA_SRC_ADVANCED_INV_H
 
 #include <array>
-#include <iosfwd>
+#include <string>
 
 #include "advanced_inv_area.h"
 #include "advanced_inv_pane.h"

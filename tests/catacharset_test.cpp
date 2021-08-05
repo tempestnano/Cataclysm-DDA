@@ -1,14 +1,14 @@
 #include <clocale>
-#include <clocale>
-#include <iosfwd>
+#include <locale>
 #include <stdexcept>
 #include <string>
 #include <tuple>
+#include <type_traits>
 #include <utility>
 #include <vector>
 
-#include "catacharset.h"
 #include "cata_catch.h"
+#include "catacharset.h"
 #include "translations.h"
 
 TEST_CASE( "utf8_width", "[catacharset]" )

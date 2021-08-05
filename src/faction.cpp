@@ -2,13 +2,12 @@
 
 #include <bitset>
 #include <cstdlib>
-#include <functional>
 #include <limits>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
+#include <type_traits>
 #include <utility>
 
 #include "avatar.h"

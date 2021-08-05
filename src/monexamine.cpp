@@ -1,7 +1,6 @@
 #include "monexamine.h"
 
-#include <functional>
-#include <iosfwd>
+#include <algorithm>
 #include <list>
 #include <map>
 #include <memory>
@@ -22,12 +21,10 @@
 #include "item.h"
 #include "item_location.h"
 #include "itype.h"
-#include "iuse.h"
 #include "map.h"
 #include "messages.h"
 #include "monster.h"
 #include "mtype.h"
-#include "npc.h"
 #include "output.h"
 #include "player_activity.h"
 #include "point.h"

@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <array>
-#include <cmath>
 #include <unordered_map>
 
 #include "behavior_strategy.h"
@@ -10,7 +9,6 @@
 #include "field_type.h"
 #include "item.h"
 #include "itype.h"
-#include "mondeath.h"
 #include "monstergenerator.h"
 #include "translations.h"
 #include "units.h"

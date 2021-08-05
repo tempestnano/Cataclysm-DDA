@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include <map>
+#include <memory>
 
 #include "calendar.h"
 #include "debug.h"

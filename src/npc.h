@@ -10,21 +10,20 @@
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
-#include <type_traits>
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
-#include "activity_type.h"
 #include "auto_pickup.h"
 #include "calendar.h"
 #include "character.h"
 #include "color.h"
+#include "compatibility.h"
 #include "coordinates.h"
 #include "creature.h"
+#include "debug.h"
 #include "dialogue_chatbin.h"
 #include "enums.h"
 #include "faction.h"

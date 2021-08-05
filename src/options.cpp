@@ -1,11 +1,11 @@
 #include "options.h"
 
-#include <clocale>
 #include <cfloat>
 #include <climits>
 #include <clocale>
+#include <iosfwd>
 #include <iterator>
-#include <new>
+#include <locale>
 #include <stdexcept>
 
 #include "cached_options.h"
@@ -27,8 +27,9 @@
 #include "path_info.h"
 #include "point.h"
 #include "popup.h"
-#include "sdltiles.h" // IWYU pragma: keep
+#include "ret_val.h"
 #include "sdlsound.h"
+#include "sdltiles.h" // IWYU pragma: keep
 #include "sounds.h"
 #include "string_formatter.h"
 #include "string_input_popup.h"

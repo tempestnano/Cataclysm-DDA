@@ -2,6 +2,8 @@
 #ifndef CATA_SRC_ANIMATION_H
 #define CATA_SRC_ANIMATION_H
 
+#include <string>
+
 #include "color.h"
 #include "optional.h"
 

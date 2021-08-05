@@ -1,12 +1,11 @@
 #include "safemode_ui.h"
 
 #include <algorithm>
-#include <cstdlib>
 #include <fstream>
-#include <functional>
+#include <iosfwd>
 #include <map>
+#include <memory>
 #include <string>
-#include <type_traits>
 #include <utility>
 
 #include "cata_utility.h"

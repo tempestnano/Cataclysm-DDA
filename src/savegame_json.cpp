@@ -13,13 +13,10 @@
 #include <cmath>
 #include <cstdint>
 #include <cstdlib>
-#include <functional>
 #include <iterator>
-#include <limits>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <numeric>
 #include <set>
 #include <sstream>
@@ -33,6 +30,7 @@
 
 #include "active_item_cache.h"
 #include "activity_actor.h"
+#include "activity_tracker.h"
 #include "activity_type.h"
 #include "assign.h"
 #include "auto_pickup.h"
@@ -78,7 +76,6 @@
 #include "itype.h"
 #include "json.h"
 #include "kill_tracker.h"
-#include "lru_cache.h"
 #include "magic.h"
 #include "magic_teleporter_list.h"
 #include "map.h"
@@ -119,6 +116,7 @@
 #include "value_ptr.h"
 #include "veh_type.h"
 #include "vehicle.h"
+#include "visitable.h"
 #include "vitamin.h"
 #include "vpart_position.h"
 #include "vpart_range.h"

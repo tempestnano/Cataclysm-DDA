@@ -2,9 +2,7 @@
 
 #include <functional>
 #include <list>
-#include <map>
 #include <memory>
-#include <utility>
 #include <vector>
 
 #include "cata_assert.h"

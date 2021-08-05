@@ -6,6 +6,7 @@
 #include "input.h"
 #include "output.h"
 #include "point.h"
+#include "ret_val.h"
 #include "translations.h"
 #include "try_parse_integer.h"
 #include "ui.h"
@@ -24,7 +25,6 @@
 #endif
 
 #include <algorithm>
-#include <cstdlib>
 #include <memory>
 #include <string>
 #include <vector>

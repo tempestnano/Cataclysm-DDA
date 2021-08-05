@@ -5,18 +5,17 @@
 #include <cmath>
 #include <cstdlib>
 #include <functional>
-#include <list>
+#include <iosfwd>
 #include <map>
 #include <memory>
-#include <new>
 #include <ostream>
 #include <set>
 #include <stdexcept>
-#include <type_traits>
 #include <unordered_map>
 
 #include "calendar.h"
 #include "cata_assert.h"
+#include "cata_variant.h"
 #include "catacharset.h"
 #include "character_id.h"
 #include "clzones.h"
@@ -28,12 +27,15 @@
 #include "cuboid_rectangle.h"
 #include "debug.h"
 #include "drawing_primitives.h"
+#include "enum_conversions.h"
 #include "enums.h"
+#include "faction.h"
 #include "field_type.h"
 #include "game.h"
 #include "game_constants.h"
 #include "generic_factory.h"
 #include "init.h"
+#include "input.h"
 #include "item.h"
 #include "item_factory.h"
 #include "item_group.h"
@@ -61,6 +63,7 @@
 #include "overmap.h"
 #include "overmapbuffer.h"
 #include "point.h"
+#include "regional_settings.h"
 #include "ret_val.h"
 #include "rng.h"
 #include "string_formatter.h"

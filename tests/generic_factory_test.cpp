@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <bitset>
+#include <memory>
 #include <set>
 #include <sstream>
 #include <string>

@@ -39,6 +39,7 @@
 #include "monstergenerator.h"
 #include "mtype.h"
 #include "mutation.h"
+#include "npc.h"
 #include "omdata.h"
 #include "output.h"
 #include "overmapbuffer.h"

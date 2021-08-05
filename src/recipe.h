@@ -5,9 +5,7 @@
 #include <cstddef>
 #include <cstdint>
 #include <functional>
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>

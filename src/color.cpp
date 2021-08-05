@@ -1,7 +1,7 @@
 #include "color.h"
 
 #include <algorithm> // for std::count
-#include <functional>
+#include <iosfwd>
 #include <iterator>
 #include <map>
 #include <utility>

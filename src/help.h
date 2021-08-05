@@ -2,13 +2,14 @@
 #ifndef CATA_SRC_HELP_H
 #define CATA_SRC_HELP_H
 
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <utility>
 #include <vector>
 
 class JsonIn;
 class translation;
+
 namespace catacurses
 {
 class window;

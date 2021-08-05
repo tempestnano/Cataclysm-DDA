@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <array>
-#include <climits>
 #include <cmath>
 #include <cstdlib>
 #include <iterator>
@@ -14,7 +13,6 @@
 #include <utility>
 
 #include "action.h"
-#include "activity_type.h"
 #include "activity_actor_definitions.h"
 #include "bodypart.h"
 #include "calendar.h"
@@ -23,7 +21,6 @@
 #include "character.h"
 #include "character_id.h"
 #include "character_martial_arts.h"
-#include "clzones.h"
 #include "color.h"
 #include "cursesdef.h"
 #include "debug.h"
@@ -42,7 +39,6 @@
 #include "iuse.h"
 #include "kill_tracker.h"
 #include "make_static.h"
-#include "magic_enchantment.h"
 #include "map.h"
 #include "map_memory.h"
 #include "martialarts.h"
@@ -62,7 +58,6 @@
 #include "player_activity.h"
 #include "profession.h"
 #include "ret_val.h"
-#include "rng.h"
 #include "skill.h"
 #include "stomach.h"
 #include "string_formatter.h"

@@ -2,9 +2,8 @@
 #ifndef CATA_SRC_CLZONES_H
 #define CATA_SRC_CLZONES_H
 
-#include <functional>
 #include <cstddef>
-#include <iosfwd>
+#include <functional>
 #include <map>
 #include <memory>
 #include <set>

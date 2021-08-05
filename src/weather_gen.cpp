@@ -3,22 +3,25 @@
 #include <algorithm>
 #include <cmath>
 #include <functional>
+#include <iosfwd>
+#include <memory>
 #include <ostream>
 #include <random>
 #include <string>
-#include <utility>
 
 #include "avatar.h"
 #include "cata_utility.h"
-#include "condition.h"
 #include "dialogue.h"
 #include "game.h"
 #include "game_constants.h"
 #include "json.h"
 #include "math_defines.h"
+#include "npc.h"
+#include "pimpl.h"
 #include "point.h"
 #include "rng.h"
 #include "simplexnoise.h"
+#include "talker.h"
 #include "translations.h"
 #include "weather.h"
 #include "weather_type.h"

@@ -3,7 +3,6 @@
 #define CATA_SRC_AMMO_EFFECT_H
 
 #include <cstddef>
-#include <iosfwd>
 #include <string>
 #include <vector>
 

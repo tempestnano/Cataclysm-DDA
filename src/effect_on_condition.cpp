@@ -1,11 +1,20 @@
 #include "effect_on_condition.h"
 
+#include <algorithm>
+#include <map>
+#include <memory>
+#include <ostream>
+#include <queue>
+#include <set>
+#include <utility>
+
 #include "avatar.h"
 #include "cata_utility.h"
-#include "character.h"
 #include "condition.h"
 #include "game.h"
 #include "generic_factory.h"
+#include "json.h"
+#include "npc.h"
 #include "talker.h"
 #include "type_id.h"
 

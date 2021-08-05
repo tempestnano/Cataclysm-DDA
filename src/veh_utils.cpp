@@ -2,17 +2,14 @@
 
 #include <algorithm>
 #include <cmath>
-#include <functional>
 #include <list>
 #include <map>
-#include <type_traits>
 #include <utility>
 #include <vector>
 
 #include "calendar.h"
 #include "character.h"
 #include "color.h"
-#include "craft_command.h"
 #include "enums.h"
 #include "game_constants.h"
 #include "inventory.h"

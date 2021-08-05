@@ -1,6 +1,7 @@
-#include <iosfwd>
 #include <regex>
+#include <sstream>
 #include <string>
+#include <vector>
 
 #include "avatar.h"
 #include "calendar.h"

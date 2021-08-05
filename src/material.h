@@ -2,10 +2,9 @@
 #ifndef CATA_SRC_MATERIAL_H
 #define CATA_SRC_MATERIAL_H
 
+#include <algorithm>
 #include <cstddef>
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>

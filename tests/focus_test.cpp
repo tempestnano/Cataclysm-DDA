@@ -1,4 +1,5 @@
 #include <array>
+#include <limits>
 
 #include "avatar.h"
 #include "cata_catch.h"

@@ -4,11 +4,9 @@
 #include <climits>
 #include <cmath>
 #include <cstdio>
-#include <functional>
 #include <iterator>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <type_traits>
@@ -64,7 +62,6 @@
 #include "map_iterator.h"
 #include "map_selector.h"
 #include "mapdata.h"
-#include "material.h"
 #include "messages.h"
 #include "mission_companion.h"
 #include "monster.h"

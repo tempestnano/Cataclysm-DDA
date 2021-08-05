@@ -3,7 +3,6 @@
 #define CATA_SRC_DIALOGUE_H
 
 #include <functional>
-#include <iosfwd>
 #include <memory>
 #include <set>
 #include <string>
@@ -12,6 +11,7 @@
 #include <vector>
 
 #include "dialogue_win.h"
+#include "flat_set.h"
 #include "npc.h"
 #include "talker.h"
 #include "translations.h"

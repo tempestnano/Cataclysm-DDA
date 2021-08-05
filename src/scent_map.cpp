@@ -1,8 +1,8 @@
 #include "scent_map.h"
 
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
-#include <new>
 
 #include "assign.h"
 #include "calendar.h"

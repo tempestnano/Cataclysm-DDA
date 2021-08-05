@@ -3,8 +3,8 @@
 #define CATA_SRC_SCENT_MAP_H
 
 #include <array>
-#include <iosfwd>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "calendar.h"

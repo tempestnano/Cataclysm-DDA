@@ -3,7 +3,7 @@
 #define CATA_SRC_DIALOGUE_WIN_H
 
 #include <cstddef>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "color.h"

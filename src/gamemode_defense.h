@@ -2,14 +2,13 @@
 #ifndef CATA_SRC_GAMEMODE_DEFENSE_H
 #define CATA_SRC_GAMEMODE_DEFENSE_H
 
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "calendar.h"
 #include "coordinates.h"
 #include "enums.h"
 #include "gamemode.h"
-#include "omdata.h"
 #include "type_id.h"
 
 namespace catacurses

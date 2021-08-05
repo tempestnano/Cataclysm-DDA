@@ -1,7 +1,9 @@
 #include "avatar.h" // IWYU pragma: associated
 
+#include <math.h>
 #include <algorithm>
 #include <climits>
+#include <cstddef>
 #include <cstdlib>
 #include <functional>
 #include <iosfwd>
@@ -9,15 +11,16 @@
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <tuple>
+#include <type_traits>
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
 #include "addiction.h"
 #include "bionics.h"
+#include "calendar.h"
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "character.h"

@@ -3,9 +3,9 @@
 #define CATA_SRC_NPCTRADE_H
 
 #include <cstddef>
-#include <iosfwd>
 #include <list>
-#include <type_traits>
+#include <string>
+#include <utility>
 #include <vector>
 
 #include "cursesdef.h"

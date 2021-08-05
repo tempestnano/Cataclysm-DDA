@@ -3,9 +3,7 @@
 #define CATA_SRC_MUTATION_H
 
 #include <climits>
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
 #include <string>
 #include <unordered_map>
@@ -13,8 +11,8 @@
 #include <vector>
 
 #include "calendar.h"
-#include "character.h"
 #include "damage.h"
+#include "enums.h"
 #include "hash_utils.h"
 #include "memory_fast.h"
 #include "optional.h"
@@ -23,6 +21,7 @@
 #include "type_id.h"
 #include "value_ptr.h"
 
+class Character;
 class JsonArray;
 class JsonIn;
 class JsonObject;

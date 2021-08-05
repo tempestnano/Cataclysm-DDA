@@ -2,9 +2,9 @@
 #define CATA_TESTS_MAP_TEST_CASE_H
 
 #include <functional>
-#include <new>
 #include <set>
 #include <sstream>
+#include <string>
 #include <vector>
 
 #include "cata_catch.h"

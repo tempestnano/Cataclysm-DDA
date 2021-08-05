@@ -1,9 +1,10 @@
 #include <cstddef>
-#include <iosfwd>
+#include <string>
 #include <utility>
 #include <vector>
 
 #include "calendar.h"
+#include "debug.h"
 #include "enums.h"
 #include "messages.h"
 

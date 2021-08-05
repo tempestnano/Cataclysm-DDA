@@ -1,14 +1,17 @@
 #include <array>
-#include <iosfwd>
+#include <map>
+#include <sstream>
+#include <string>
 
 #include "cached_options.h"
 #include "calendar.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "character.h"
-#include "game.h"
 #include "line.h"
 #include "map.h"
 #include "map_helpers.h"
+#include "mattack_common.h"
 #include "monattack.h"
 #include "monster.h"
 #include "mtype.h"
@@ -17,7 +20,6 @@
 #include "point.h"
 #include "test_statistics.h"
 #include "type_id.h"
-#include "weather.h"
 #include "weather_type.h"
 
 static constexpr tripoint attacker_location{ 65, 65, 0 };

@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_REGIONAL_SETTINGS_H
 #define CATA_SRC_REGIONAL_SETTINGS_H
 
-#include <iosfwd>
+#include <array>
 #include <map>
 #include <memory>
 #include <set>
@@ -11,6 +11,7 @@
 #include <vector>
 
 #include "enums.h"
+#include "game_constants.h"
 #include "mapdata.h"
 #include "memory_fast.h"
 #include "omdata.h"

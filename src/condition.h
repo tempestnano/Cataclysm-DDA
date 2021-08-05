@@ -3,7 +3,6 @@
 #define CATA_SRC_CONDITION_H
 
 #include <functional>
-#include <iosfwd>
 #include <string>
 #include <unordered_set>
 

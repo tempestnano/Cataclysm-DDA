@@ -1,5 +1,6 @@
 #include "mapgen_functions.h"
 
+#include <math.h>
 #include <algorithm>
 #include <array>
 #include <cstdlib>

@@ -3,12 +3,8 @@
 #include <bitset>
 #include <cmath>
 #include <cstddef>
-#include <functional>
-#include <iosfwd>
 #include <list>
-#include <map>
 #include <memory>
-#include <new>
 #include <queue>
 #include <set>
 #include <string>

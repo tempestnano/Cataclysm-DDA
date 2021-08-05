@@ -1,18 +1,16 @@
 #include "iuse_actor.h"
 
-#include <cctype>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <cmath>
 #include <cstddef>
 #include <functional>
 #include <iterator>
-#include <limits>
 #include <list>
 #include <memory>
 #include <numeric>
 #include <sstream>
-#include <type_traits>
 
 #include "action.h"
 #include "activity_actor_definitions.h"
@@ -32,7 +30,9 @@
 #include "creature.h"
 #include "damage.h"
 #include "debug.h"
+#include "dialogue.h"
 #include "effect.h"
+#include "effect_on_condition.h"
 #include "enum_conversions.h"
 #include "enums.h"
 #include "explosion.h"
@@ -62,6 +62,7 @@
 #include "morale_types.h"
 #include "mtype.h"
 #include "mutation.h"
+#include "npc.h"
 #include "output.h"
 #include "overmapbuffer.h"
 #include "pimpl.h"

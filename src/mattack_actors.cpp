@@ -11,6 +11,7 @@
 #include "calendar.h"
 #include "character.h"
 #include "creature.h"
+#include "debug.h"
 #include "enums.h"
 #include "game.h"
 #include "generic_factory.h"

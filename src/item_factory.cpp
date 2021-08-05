@@ -3,14 +3,10 @@
 #include <algorithm>
 #include <array>
 #include <cmath>
-#include <cstdio>
 #include <cstdlib>
 #include <iterator>
-#include <limits>
 #include <memory>
-#include <new>
 #include <stdexcept>
-#include <type_traits>
 #include <unordered_set>
 
 #include "addiction.h"
@@ -33,6 +29,7 @@
 #include "game_constants.h"
 #include "generic_factory.h"
 #include "init.h"
+#include "input.h"
 #include "item.h"
 #include "item_contents.h"
 #include "item_group.h"

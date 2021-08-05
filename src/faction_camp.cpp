@@ -2,11 +2,9 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <functional>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <unordered_set>

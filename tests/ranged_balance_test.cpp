@@ -1,6 +1,5 @@
+#include <math.h>
 #include <algorithm>
-#include <cstdlib>
-#include <functional>
 #include <list>
 #include <memory>
 #include <ostream>
@@ -9,29 +8,23 @@
 
 #include "ballistics.h"
 #include "bodypart.h"
-#include "calendar.h"
-#include "cata_utility.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "creature.h"
 #include "dispersion.h"
 #include "game_constants.h"
 #include "inventory.h"
 #include "item.h"
-#include "item_location.h"
-#include "item_pocket.h"
-#include "itype.h"
 #include "json.h"
 #include "map_helpers.h"
 #include "npc.h"
 #include "pimpl.h"
 #include "player_helpers.h"
 #include "point.h"
-#include "ret_val.h"
 #include "test_statistics.h"
 #include "translations.h"
 #include "type_id.h"
 #include "units.h"
-#include "value_ptr.h"
 
 using firing_statistics = statistics<bool>;
 

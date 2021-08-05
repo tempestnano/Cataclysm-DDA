@@ -17,7 +17,6 @@
 #include "magic_enchantment.h"
 #include "map.h"
 #include "rng.h"
-#include "string_id.h"
 #include "translations.h"
 #include "type_id.h"
 #include "weather.h"

@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_INPUT_H
 #define CATA_SRC_INPUT_H
 
+#include <algorithm>
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>

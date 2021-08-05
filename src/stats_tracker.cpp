@@ -12,6 +12,7 @@
 #include "event_statistics.h"
 #include "json.h"
 #include "optional.h"
+#include "string_id.h"
 
 static bool event_data_matches( const cata::event::data_type &data,
                                 const cata::event::data_type &criteria )

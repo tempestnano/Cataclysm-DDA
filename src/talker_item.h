@@ -2,18 +2,12 @@
 #ifndef CATA_SRC_TALKER_ITEM_H
 #define CATA_SRC_TALKER_ITEM_H
 
-#include <functional>
-#include <iosfwd>
-#include <list>
-#include <vector>
+#include <string>
 
 #include "coordinates.h"
-#include "npc.h"
 #include "talker.h"
-#include "type_id.h"
 
-class item;
-
+class item_location;
 struct tripoint;
 
 /*

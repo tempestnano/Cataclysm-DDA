@@ -1,6 +1,5 @@
-#include <iosfwd>
+#include <array>
 #include <list>
-#include <new>
 #include <set>
 #include <string>
 #include <tuple>
@@ -10,6 +9,7 @@
 #include "avatar.h"
 #include "cached_options.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "character.h"
 #include "colony.h"
 #include "item.h"

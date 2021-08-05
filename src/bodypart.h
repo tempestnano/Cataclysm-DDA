@@ -5,7 +5,6 @@
 #include <array>
 #include <cstddef>
 #include <initializer_list>
-#include <iosfwd>
 #include <string>
 #include <utility>
 #include <vector>

@@ -2,7 +2,6 @@
 #ifndef CATA_SRC_VITAMIN_H
 #define CATA_SRC_VITAMIN_H
 
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>

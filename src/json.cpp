@@ -1,6 +1,5 @@
 #include "json.h"
 
-#include <clocale>
 #include <algorithm>
 #include <bitset>
 #include <cmath> // IWYU pragma: keep
@@ -11,6 +10,7 @@
 #include <functional>
 #include <iterator>
 #include <limits>
+#include <locale>
 #include <memory>
 #include <set>
 #include <sstream> // IWYU pragma: keep
@@ -20,9 +20,11 @@
 
 #include "cached_options.h"
 #include "cata_utility.h"
+#include "catacharset.h"
 #include "debug.h"
 #include "output.h"
 #include "string_formatter.h"
+#include "translations.h"
 
 // JSON parsing and serialization tools for Cataclysm-DDA.
 // For documentation, see the included header, json.h.

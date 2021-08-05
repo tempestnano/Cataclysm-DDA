@@ -3,8 +3,8 @@
 #include <algorithm>
 #include <array>
 #include <cstddef>
-#include <functional>
 #include <iterator>
+#include <memory>
 #include <numeric>
 #include <string>
 #include <unordered_map>

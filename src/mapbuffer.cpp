@@ -1,12 +1,14 @@
 #include "mapbuffer.h"
 
+#include <algorithm>
 #include <chrono>
 #include <exception>
 #include <functional>
-#include <ratio>
+#include <iosfwd>
 #include <set>
 #include <sstream>
 #include <string>
+#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -16,6 +18,7 @@
 #include "filesystem.h"
 #include "game.h"
 #include "game_constants.h"
+#include "input.h"
 #include "json.h"
 #include "map.h"
 #include "output.h"

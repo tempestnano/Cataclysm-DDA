@@ -44,6 +44,7 @@
 #include "monstergenerator.h"
 #include "mtype.h"
 #include "npc.h"
+#include "omdata.h"
 #include "optional.h"
 #include "output.h"
 #include "overlay_ordering.h"

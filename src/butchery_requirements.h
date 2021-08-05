@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_BUTCHERY_REQUIREMENTS_H
 #define CATA_SRC_BUTCHERY_REQUIREMENTS_H
 
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <utility>
 #include <vector>
 

@@ -1,4 +1,3 @@
-#include <functional>
 #include <list>
 #include <memory>
 #include <set>

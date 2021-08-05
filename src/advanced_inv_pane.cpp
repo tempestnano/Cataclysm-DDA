@@ -1,6 +1,8 @@
+#include <algorithm>
 #include <cstddef>
 #include <iterator>
 #include <list>
+#include <memory>
 #include <string>
 #include <vector>
 
@@ -11,6 +13,7 @@
 #include "cata_assert.h"
 #include "flag.h"
 #include "item.h"
+#include "item_location.h"
 #include "item_pocket.h"
 #include "item_search.h"
 #include "make_static.h"

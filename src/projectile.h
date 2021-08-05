@@ -2,9 +2,9 @@
 #ifndef CATA_SRC_PROJECTILE_H
 #define CATA_SRC_PROJECTILE_H
 
-#include <iosfwd>
 #include <memory>
 #include <set>
+#include <string>
 
 #include "compatibility.h"
 #include "damage.h"

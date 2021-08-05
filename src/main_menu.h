@@ -3,7 +3,7 @@
 #define CATA_SRC_MAIN_MENU_H
 
 #include <cstddef>
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "cursesdef.h"

@@ -2,7 +2,6 @@
 #ifndef CATA_SRC_LIGHTMAP_H
 #define CATA_SRC_LIGHTMAP_H
 
-#include <cmath>
 #include <ostream>
 
 static constexpr float LIGHT_SOURCE_LOCAL = 0.1f;

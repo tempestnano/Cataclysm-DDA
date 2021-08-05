@@ -2,6 +2,7 @@
 
 #include <algorithm>
 #include <ostream>
+#include <string>
 #include <utility>
 
 #include "cata_assert.h"
@@ -9,6 +10,7 @@
 #include "mongroup.h"
 #include "monster.h"
 #include "mtype.h"
+#include "point.h"
 #include "string_formatter.h"
 #include "type_id.h"
 

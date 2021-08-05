@@ -6,14 +6,13 @@
 #include <climits>
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
-#include <new>
+#include <memory>
 #include <set>
 #include <stack>
 #include <string>
-#include <type_traits>
+#include <tuple>
 #include <unordered_map>
 #include <utility>
 #include <vector>
@@ -23,7 +22,6 @@
 #include "character_id.h"
 #include "clzones.h"
 #include "colony.h"
-#include "coordinates.h"
 #include "damage.h"
 #include "game_constants.h"
 #include "item.h"
@@ -1928,6 +1926,7 @@ class vehicle
         mutable point mass_center_no_precalc;
         tripoint autodrive_local_target = tripoint_zero; // current node the autopilot is aiming for
         class autodrive_controller;
+
         std::shared_ptr<autodrive_controller> active_autodrive_controller;
 
     public:

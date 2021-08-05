@@ -4,14 +4,15 @@
 
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <string>
 #include <tuple>
 #include <utility>
 #include <vector>
 
 #include "color.h"
+#include "flat_set.h"
 #include "magic.h"
+#include "optional.h"
 #include "translations.h"
 #include "type_id.h"
 #include "units.h"

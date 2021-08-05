@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <climits>
-#include <iosfwd>
 #include <limits>
 #include <map>
 #include <memory>
@@ -22,9 +21,6 @@
 #include "make_static.h"
 #include "map.h"
 #include "map_selector.h"
-#include "memory_fast.h"
-#include "monster.h"
-#include "mtype.h"
 #include "mutation.h"
 #include "pimpl.h"
 #include "player.h"
@@ -32,7 +28,6 @@
 #include "submap.h"
 #include "temp_crafting_inventory.h"
 #include "units.h"
-#include "value_ptr.h"
 #include "veh_type.h"
 #include "vehicle.h"
 #include "vehicle_selector.h"

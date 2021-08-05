@@ -3,7 +3,6 @@
 #define CATA_SRC_FACTION_H
 
 #include <bitset>
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>

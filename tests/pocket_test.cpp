@@ -1,8 +1,5 @@
-#include <functional>
-#include <iosfwd>
 #include <map>
 #include <memory>
-#include <new>
 #include <string>
 #include <utility>
 #include <vector>

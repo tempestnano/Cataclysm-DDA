@@ -1,7 +1,6 @@
 #include "past_games_info.h"
 
 #include <algorithm>
-#include <functional>
 #include <map>
 #include <sstream>
 #include <stdexcept>
@@ -13,6 +12,7 @@
 #include "debug.h"
 #include "event.h"
 #include "filesystem.h"
+#include "input.h"
 #include "json.h"
 #include "memorial_logger.h"
 #include "output.h"

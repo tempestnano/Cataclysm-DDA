@@ -1,18 +1,20 @@
-#include <cctype>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <cmath>
 #include <cstdlib>
-#include <iosfwd>
+#include <functional>
 #include <list>
 #include <map>
 #include <memory>
 #include <string>
 #include <tuple>
+#include <unordered_set>
 #include <utility>
 #include <vector>
 
 #include "activity_handlers.h"
+#include "activity_tracker.h"
 #include "addiction.h"
 #include "bionics.h"
 #include "bodypart.h"

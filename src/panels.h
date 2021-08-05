@@ -3,7 +3,6 @@
 #define CATA_SRC_PANELS_H
 
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <string>
 #include <vector>

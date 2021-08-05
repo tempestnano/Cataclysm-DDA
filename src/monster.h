@@ -6,10 +6,9 @@
 #include <climits>
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <map>
-#include <new>
 #include <set>
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -19,7 +18,10 @@
 #include "compatibility.h"
 #include "creature.h"
 #include "damage.h"
+#include "debug.h"
 #include "enums.h"
+#include "item.h"
+#include "mtype.h"
 #include "optional.h"
 #include "point.h"
 #include "type_id.h"
@@ -32,8 +34,8 @@ class JsonObject;
 class JsonOut;
 class effect;
 class effect_source;
-class item;
 class player;
+
 namespace catacurses
 {
 class window;

@@ -1,9 +1,10 @@
 #include "avatar_action.h"
 
+#include <math.h>
 #include <algorithm>
 #include <climits>
 #include <cstdlib>
-#include <functional>
+#include <iosfwd>
 #include <map>
 #include <memory>
 #include <ostream>
@@ -19,6 +20,7 @@
 #include "cached_options.h"
 #include "calendar.h"
 #include "character.h"
+#include "color.h"
 #include "creature.h"
 #include "debug.h"
 #include "enums.h"
@@ -51,7 +53,7 @@
 #include "rng.h"
 #include "translations.h"
 #include "type_id.h"
-#include "value_ptr.h"
+#include "ui.h"
 #include "veh_type.h"
 #include "vehicle.h"
 #include "vpart_position.h"

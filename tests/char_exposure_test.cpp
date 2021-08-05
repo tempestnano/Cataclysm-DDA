@@ -2,11 +2,11 @@
 #include <map>
 #include <utility>
 
+#include "bodypart.h"
 #include "cata_catch.h"
 #include "character.h"
 #include "item.h"
 #include "player_helpers.h"
-#include "type_id.h"
 
 // Tests for Character bodypart exposure
 //

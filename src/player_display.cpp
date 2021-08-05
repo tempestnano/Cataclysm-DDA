@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdlib>
-#include <functional>
 #include <memory>
 #include <string>
 
@@ -24,6 +23,7 @@
 #include "game.h"
 #include "input.h"
 #include "mutation.h"
+#include "npc.h"
 #include "options.h"
 #include "output.h"
 #include "pimpl.h"

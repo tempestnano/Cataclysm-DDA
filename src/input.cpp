@@ -1,20 +1,19 @@
 #include "input.h"
 
-#include <cctype>
-#include <clocale>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <cstddef>
 #include <exception>
 #include <fstream>
+#include <iosfwd>
 #include <iterator>
+#include <locale>
 #include <memory>
-#include <new>
 #include <set>
 #include <sstream>
 #include <stdexcept>
 #include <tuple>
-#include <type_traits>
 #include <utility>
 
 #include "action.h"

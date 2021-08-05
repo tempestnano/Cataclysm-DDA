@@ -1,19 +1,25 @@
-#include "catch/catch.hpp"
-#include "map_helpers.h"
-#include "player_helpers.h"
-#include "activity_scheduling_helper.h"
+#include <string>
 
 #include "activity_actor_definitions.h"
+#include "activity_type.h"
 #include "avatar.h"
 #include "calendar.h"
-#include "character.h"
-#include "flag.h"
-#include "game.h"
+#include "catch/catch.hpp"
+#include "colony.h"
+#include "item.h"
+#include "item_pocket.h"
 #include "itype.h"
+#include "iuse.h"
 #include "iuse_actor.h"
 #include "map.h"
+#include "map_helpers.h"
 #include "monster.h"
+#include "player_activity.h"
+#include "player_helpers.h"
 #include "point.h"
+#include "ret_val.h"
+#include "type_id.h"
+#include "units.h"
 
 static const activity_id ACT_NULL( "ACT_NULL" );
 static const activity_id ACT_BOLTCUTTING( "ACT_BOLTCUTTING" );

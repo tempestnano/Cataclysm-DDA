@@ -5,11 +5,8 @@
 #include <iosfwd>
 #include <map>
 #include <memory>
-#include <new>
-#include <ostream>
 #include <set>
 #include <string>
-#include <type_traits>
 #include <typeinfo>
 #include <utility>
 #include <vector>
@@ -39,7 +36,6 @@
 #include "mapdata.h"
 #include "memory_fast.h"
 #include "monster.h"
-#include "mtype.h"
 #include "npc.h"
 #include "omdata.h"
 #include "output.h"

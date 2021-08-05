@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <memory>
 #include <string>
-#include <type_traits>
+#include <utility>
 #include <vector>
 
 #include "ammo_effect.h"

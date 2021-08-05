@@ -1,5 +1,5 @@
-#include <iosfwd>
 #include <list>
+#include <map>
 #include <memory>
 #include <set>
 #include <string>

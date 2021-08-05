@@ -11,7 +11,6 @@
  *
  * The concept is to bracket these threshods with various bows using standard hunting loadouts.
  */
-#include <iosfwd>
 #include <memory>
 #include <set>
 #include <string>

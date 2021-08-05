@@ -1,10 +1,9 @@
 /* Entry point and main loop for Cataclysm
  */
 
-// IWYU pragma: no_include <sys/signal.h>
-#include <clocale>
 #include <algorithm>
 #include <array>
+// IWYU pragma: no_include <sys/signal.h>
 #include <clocale>
 #include <cstdio>
 #include <cstdlib>
@@ -13,6 +12,7 @@
 #include <exception>
 #include <functional>
 #include <iostream>
+#include <locale>
 #include <map>
 #include <memory>
 #include <string>
@@ -45,8 +45,6 @@
 #include "translations.h"
 #include "type_id.h"
 #include "ui_manager.h"
-
-class ui_adaptor;
 
 #if defined(TILES)
 #   if defined(_MSC_VER) && defined(USE_VCPKG)

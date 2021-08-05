@@ -4,15 +4,16 @@
 
 #include <array>
 #include <climits>
-#include <iosfwd>
 #include <map>
 #include <set>
+#include <string>
 #include <type_traits>
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
 #include "bodypart.h"
+#include "calendar.h"
 #include "compatibility.h"
 #include "damage.h"
 #include "debug.h"
@@ -47,7 +48,6 @@ class field;
 class field_entry;
 class npc;
 class player;
-class time_duration;
 struct point;
 struct tripoint;
 

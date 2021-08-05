@@ -6,10 +6,11 @@
 #include <cmath>
 #include <cstdlib>
 #include <cstring>
+#include <iosfwd>
+#include <numeric>
 #include <ostream>
 #include <queue>
 #include <string>
-#include <type_traits>
 #include <unordered_map>
 
 #include "active_item_cache.h"
@@ -46,6 +47,7 @@
 #include "game.h"
 #include "harvest.h"
 #include "iexamine.h"
+#include "input.h"
 #include "item.h"
 #include "item_factory.h"
 #include "item_group.h"
@@ -69,7 +71,6 @@
 #include "monster.h"
 #include "mtype.h"
 #include "optional.h"
-#include "options.h"
 #include "output.h"
 #include "overmapbuffer.h"
 #include "pathfinding.h"

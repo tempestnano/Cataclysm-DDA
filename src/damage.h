@@ -2,9 +2,10 @@
 #ifndef CATA_SRC_DAMAGE_H
 #define CATA_SRC_DAMAGE_H
 
+#include <algorithm>
 #include <array>
-#include <iosfwd>
 #include <map>
+#include <string>
 #include <vector>
 
 #include "calendar.h"

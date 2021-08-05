@@ -3,7 +3,6 @@
 #define CATA_SRC_SKILL_H
 
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>

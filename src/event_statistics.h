@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_EVENT_STATISTICS_H
 #define CATA_SRC_EVENT_STATISTICS_H
 
-#include <iosfwd>
 #include <memory>
+#include <string>
 #include <unordered_map>
 #include <vector>
 

@@ -2,7 +2,6 @@
 #ifndef CATA_SRC_ITEM_GROUP_H
 #define CATA_SRC_ITEM_GROUP_H
 
-#include <iosfwd>
 #include <memory>
 #include <set>
 #include <string>

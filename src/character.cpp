@@ -1,12 +1,12 @@
 #include "character.h"
 
-#include <cctype>
 #include <algorithm>
 #include <array>
+#include <cctype>
 #include <climits>
 #include <cmath>
-#include <cstddef>
 #include <cstdlib>
+#include <iosfwd>
 #include <iterator>
 #include <memory>
 #include <numeric>
@@ -24,7 +24,6 @@
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "character_martial_arts.h"
-#include "clzones.h"
 #include "colony.h"
 #include "color.h"
 #include "construction.h"
@@ -34,10 +33,12 @@
 #include "debug.h"
 #include "disease.h"
 #include "effect.h"
+#include "effect_on_condition.h"
 #include "effect_source.h"
 #include "enums.h"
 #include "event.h"
 #include "event_bus.h"
+#include "faction.h"
 #include "field.h"
 #include "field_type.h"
 #include "fire.h"

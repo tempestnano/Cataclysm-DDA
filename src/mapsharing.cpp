@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include <fstream>
+#include <iosfwd>
 #include <stdexcept>
 #include <string>
 

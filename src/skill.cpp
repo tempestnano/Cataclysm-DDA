@@ -4,6 +4,7 @@
 #include <array>
 #include <cstddef>
 #include <iterator>
+#include <memory>
 #include <utility>
 
 #include "cata_utility.h"

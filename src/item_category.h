@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_ITEM_CATEGORY_H
 #define CATA_SRC_ITEM_CATEGORY_H
 
-#include <iosfwd>
-#include <new>
+#include <algorithm>
+#include <string>
 #include <vector>
 
 #include "flat_set.h"

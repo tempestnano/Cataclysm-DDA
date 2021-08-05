@@ -1,5 +1,5 @@
-#include <iosfwd>
 #include <memory>
+#include <string>
 #include <vector>
 
 #include "cata_catch.h"

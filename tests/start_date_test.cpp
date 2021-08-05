@@ -1,9 +1,12 @@
-#include "catch/catch.hpp"
+#include <memory>
 
+#include "calendar.h"
+#include "catch/catch.hpp"
 #include "game.h"
-#include "scenario.h"
 #include "options.h"
 #include "options_helpers.h"
+#include "scenario.h"
+#include "string_id.h"
 
 
 

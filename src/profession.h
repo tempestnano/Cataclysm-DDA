@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_PROFESSION_H
 #define CATA_SRC_PROFESSION_H
 
-#include <iosfwd>
+#include <algorithm>
 #include <list>
 #include <map>
 #include <set>

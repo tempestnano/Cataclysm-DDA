@@ -4,15 +4,14 @@
 #include <iterator>
 #include <list>
 #include <memory>
-#include <new>
 #include <set>
 #include <tuple>
 #include <unordered_set>
 #include <utility>
 
 #include "avatar.h"
-#include "calendar.h"
 #include "catacharset.h"
+#include "character.h"
 #include "clone_ptr.h"
 #include "debug.h"
 #include "game.h"
@@ -35,8 +34,6 @@
 #include "translations.h"
 #include "type_id.h"
 #include "ui.h"
-
-class Character;
 
 static const std::string errstring( "ERROR" );
 

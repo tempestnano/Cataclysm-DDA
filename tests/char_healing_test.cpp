@@ -1,4 +1,4 @@
-#include <iosfwd>
+#include <string>
 
 #include "avatar.h"
 #include "calendar.h"

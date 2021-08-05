@@ -1,9 +1,11 @@
-#include <iosfwd>
+#include <memory>
+#include <string>
 #include <vector>
 
 #include "avatar.h"
 #include "calendar.h"
 #include "cata_catch.h"
+#include "character.h"
 #include "field.h"
 #include "field_type.h"
 #include "item.h"
@@ -13,6 +15,7 @@
 #include "mapdata.h"
 #include "player_helpers.h"
 #include "point.h"
+#include "string_formatter.h"
 #include "type_id.h"
 
 static int count_fields( const field_type_str_id &field_type )

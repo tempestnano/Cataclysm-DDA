@@ -4,6 +4,7 @@
 #include <array>
 #include <cmath>
 #include <cstddef>
+#include <iosfwd>
 #include <iterator>
 #include <list>
 #include <map>
@@ -15,6 +16,7 @@
 #include <vector>
 
 #include "activity_type.h"
+#include "assign.h"
 #include "auto_pickup.h"
 #include "avatar.h"
 #include "calendar.h"
@@ -27,6 +29,7 @@
 #include "condition.h"
 #include "coordinates.h"
 #include "debug.h"
+#include "effect_on_condition.h"
 #include "enums.h"
 #include "faction.h"
 #include "faction_camp.h"
@@ -50,6 +53,7 @@
 #include "npc.h"
 #include "npctalk.h"
 #include "npctrade.h"
+#include "optional.h"
 #include "output.h"
 #include "pimpl.h"
 #include "player.h"
@@ -68,10 +72,12 @@
 #include "translations.h"
 #include "ui.h"
 #include "ui_manager.h"
+#include "units_fwd.h"
 #include "veh_type.h"
 #include "vehicle.h"
 #include "vpart_position.h"
 #include "vpart_range.h"
+#include "weather.h"
 
 static const activity_id ACT_AIM( "ACT_AIM" );
 static const activity_id ACT_SOCIALIZE( "ACT_SOCIALIZE" );

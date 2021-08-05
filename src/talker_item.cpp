@@ -1,14 +1,8 @@
-#include <memory>
-
-#include "character_id.h"
+#include "character.h"
 #include "item.h"
-#include "magic.h"
-#include "npc.h"
-#include "pimpl.h"
-#include "player.h"
+#include "item_location.h"
 #include "point.h"
 #include "talker_item.h"
-#include "vehicle.h"
 
 std::string talker_item::disp_name() const
 {

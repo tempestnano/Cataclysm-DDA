@@ -2,6 +2,8 @@
 #ifndef CATA_SRC_NPCTALK_H
 #define CATA_SRC_NPCTALK_H
 
+#include <string>
+
 #include "type_id.h"
 
 class item;

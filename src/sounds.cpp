@@ -5,10 +5,8 @@
 #include <cmath>
 #include <cstdlib>
 #include <memory>
-#include <type_traits>
 #include <unordered_map>
 
-#include "activity_type.h"
 #include "cached_options.h" // IWYU pragma: keep
 #include "calendar.h"
 #include "character.h"

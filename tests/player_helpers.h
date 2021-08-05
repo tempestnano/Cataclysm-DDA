@@ -2,7 +2,8 @@
 #ifndef CATA_TESTS_PLAYER_HELPERS_H
 #define CATA_TESTS_PLAYER_HELPERS_H
 
-#include <iosfwd>
+#include <string>
+#include <vector>
 
 #include "npc.h"
 

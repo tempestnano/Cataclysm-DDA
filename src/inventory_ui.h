@@ -6,12 +6,10 @@
 #include <climits>
 #include <cstddef>
 #include <functional>
-#include <iosfwd>
 #include <limits>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <string>
 #include <utility>
 #include <vector>

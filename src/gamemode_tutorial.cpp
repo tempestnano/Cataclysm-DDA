@@ -1,8 +1,8 @@
 #include "gamemode_tutorial.h" // IWYU pragma: associated
 
 #include <cstdlib>
-#include <iosfwd>
 #include <memory>
+#include <string>
 
 #include "action.h"
 #include "avatar.h"

@@ -1,13 +1,11 @@
 #include <algorithm>
-#include <functional>
 #include <list>
 #include <memory>
-#include <new>
 #include <vector>
 
 #include "calendar.h"
-#include "cata_utility.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "character.h"
 #include "inventory.h"
 #include "item.h"

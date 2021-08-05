@@ -3,12 +3,11 @@
 #include <algorithm>
 #include <array>
 #include <cstdio>
-#include <cstdlib>
 #include <fstream>
+#include <iosfwd>
 #include <iterator>
 #include <memory>
 #include <set>
-#include <type_traits>
 #include <unordered_map>
 #include <utility>
 

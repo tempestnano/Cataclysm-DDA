@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <memory>
-#include <new>
 
 #include "activity_handlers.h"
 #include "activity_type.h"

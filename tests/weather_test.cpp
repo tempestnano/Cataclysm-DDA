@@ -1,11 +1,12 @@
+#include <math.h>
 #include <algorithm>
-#include <cstdlib>
-#include <map>
+#include <memory>
 #include <vector>
 
 #include "calendar.h"
 #include "cata_catch.h"
 #include "options_helpers.h"
+#include "pimpl.h"
 #include "point.h"
 #include "type_id.h"
 #include "weather.h"

@@ -1,10 +1,11 @@
 #include <functional>
-#include <new>
 #include <ostream>
+#include <string>
 #include <vector>
 
 #include "cached_options.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "map.h"
 #include "map_helpers.h"
 #include "map_iterator.h"

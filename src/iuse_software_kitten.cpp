@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <cstdlib>  // Needed for rand()
-#include <functional>
 #include <string>
 #include <vector>
 

@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <array>
-#include <functional>
 #include <iterator>
 #include <list>
 #include <map>
@@ -12,8 +11,8 @@
 
 #include "bodypart.h"
 #include "cached_options.h"
-#include "cata_utility.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "colony.h"
 #include "damage.h"
 #include "debug.h"

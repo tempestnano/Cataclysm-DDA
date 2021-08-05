@@ -8,13 +8,13 @@
 #include <cstddef>
 #include <cstdint>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
+#include <string>
 #include <tuple>
+#include <type_traits>
 #include <utility>
 #include <vector>
 
@@ -42,6 +42,7 @@
 #include "units.h"
 #include "value_ptr.h"
 
+struct field_type;
 struct scent_block;
 
 namespace catacurses
@@ -90,11 +91,11 @@ using VehicleList = std::vector<wrapped_vehicle>;
 class map;
 
 enum ter_bitflags : int;
+struct field_proc_data;
 struct pathfinding_cache;
 struct pathfinding_settings;
 template<typename T>
 struct weighted_int_list;
-struct field_proc_data;
 
 using relic_procgen_id = string_id<relic_procgen_data>;
 

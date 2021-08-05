@@ -1,5 +1,5 @@
+#include <algorithm>
 #include <functional>
-#include <iosfwd>
 #include <list>
 #include <string>
 #include <vector>

@@ -10,7 +10,6 @@
 #include <iterator>
 #include <list>
 #include <map>
-#include <new>
 #include <set>
 #include <sstream>
 #include <string>
@@ -26,6 +25,7 @@
 #include "bionics.h"
 #include "bodypart.h"
 #include "calendar.h"
+#include "cata_assert.h"
 #include "cata_utility.h"
 #include "character.h"
 #include "character_martial_arts.h"

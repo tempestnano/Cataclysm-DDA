@@ -2,8 +2,11 @@
 #ifndef CATA_SRC_DEBUG_H
 #define CATA_SRC_DEBUG_H
 
-#include "string_formatter.h"
 #include <list>
+#include <string>
+#include <utility>
+
+#include "string_formatter.h"
 
 /**
  *      debugmsg(msg, ...)

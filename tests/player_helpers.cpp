@@ -1,5 +1,4 @@
 #include <cstddef>
-#include <functional>
 #include <list>
 #include <memory>
 #include <string>
@@ -7,6 +6,7 @@
 
 #include "avatar.h"
 #include "bionics.h"
+#include "calendar.h"
 #include "cata_catch.h"
 #include "character.h"
 #include "character_id.h"
@@ -14,6 +14,7 @@
 #include "game.h"
 #include "inventory.h"
 #include "item.h"
+#include "item_location.h"
 #include "item_pocket.h"
 #include "itype.h"
 #include "make_static.h"
@@ -27,6 +28,7 @@
 #include "ret_val.h"
 #include "stomach.h"
 #include "type_id.h"
+#include "value_ptr.h"
 
 int get_remaining_charges( const std::string &tool_id )
 {

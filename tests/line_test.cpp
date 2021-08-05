@@ -1,15 +1,14 @@
+#include <math.h>
 #include <algorithm>
 #include <chrono>
 #include <cstdio>
 #include <cstdlib>
-#include <functional>
-#include <iosfwd>
+#include <memory>
 #include <string>
-#include <type_traits>
 #include <vector>
 
-#include "cata_generators.h"
 #include "cata_catch.h"
+#include "cata_generators.h"
 #include "coordinates.h"
 #include "line.h"
 #include "point.h"

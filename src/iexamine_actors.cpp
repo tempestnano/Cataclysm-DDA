@@ -1,15 +1,32 @@
 #include "iexamine_actors.h"
 
+#include <stddef.h>
+#include <algorithm>
+#include <utility>
+
+#include "calendar.h"
+#include "coordinate_conversions.h"
+#include "coordinates.h"
+#include "creature.h"
+#include "debug.h"
 #include "game.h"
 #include "generic_factory.h"
-#include "itype.h"
+#include "item.h"
+#include "item_location.h"
+#include "json.h"
+#include "line.h"
 #include "map.h"
-#include "mapgen_functions.h"
 #include "map_iterator.h"
+#include "mapdata.h"
+#include "mapgen_functions.h"
 #include "messages.h"
+#include "monster.h"
 #include "mtype.h"
 #include "output.h"
 #include "player.h"
+#include "point.h"
+#include "translations.h"
+#include "ui.h"
 
 void cardreader_examine_actor::consume_card( const std::vector<item_location> &cards ) const
 {

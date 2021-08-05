@@ -1,9 +1,13 @@
 #include "mapgendata.h"
 
+#include <vector>
+
 #include "debug.h"
+#include "json.h"
 #include "map.h"
 #include "mapdata.h"
 #include "omdata.h"
+#include "optional.h"
 #include "overmapbuffer.h"
 #include "point.h"
 #include "regional_settings.h"

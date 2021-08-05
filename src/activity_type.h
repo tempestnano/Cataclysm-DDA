@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_ACTIVITY_TYPE_H
 #define CATA_SRC_ACTIVITY_TYPE_H
 
-#include <iosfwd>
+#include <string>
 
 #include "game_constants.h"
 #include "string_id.h"

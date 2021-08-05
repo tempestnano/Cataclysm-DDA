@@ -1,8 +1,11 @@
 #include "shearing.h"
 
+#include <algorithm>
+#include <utility>
 #include <vector>
 
 #include "generic_factory.h"
+#include "json.h"
 #include "monster.h"
 #include "rng.h"
 #include "units.h"

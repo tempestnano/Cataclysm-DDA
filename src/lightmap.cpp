@@ -20,6 +20,7 @@
 #include "cuboid_rectangle.h"
 #include "debug.h"
 #include "field.h"
+#include "field_type.h"
 #include "fragment_cloud.h" // IWYU pragma: keep
 #include "game.h"
 #include "item.h"
@@ -40,7 +41,6 @@
 #include "tileray.h"
 #include "type_id.h"
 #include "units.h"
-#include "units_utility.h"
 #include "veh_type.h"
 #include "vehicle.h"
 #include "vpart_position.h"

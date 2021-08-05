@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_AVATAR_ACTION_H
 #define CATA_SRC_AVATAR_ACTION_H
 
-#include <iosfwd>
+#include <string>
 #include <vector>
 
 #include "activity_type.h"

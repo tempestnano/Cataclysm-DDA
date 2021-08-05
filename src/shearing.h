@@ -1,11 +1,11 @@
 #pragma once
-#include "damage.h"
+#include "type_id.h"
+
+class JsonObject;
 #ifndef CATA_SRC_SHEARING_H
 #define CATA_SRC_SHEARING_H
 
 #include <vector>
-
-#include "itype.h"
 
 class monster;
 

@@ -1,14 +1,15 @@
 #include "npctrade.h"
 
+#include <math.h>
 #include <algorithm>
 #include <cstdlib>
-#include <functional>
+#include <iosfwd>
 #include <iterator>
 #include <list>
+#include <memory>
 #include <ostream>
 #include <set>
 #include <string>
-#include <type_traits>
 #include <utility>
 #include <vector>
 

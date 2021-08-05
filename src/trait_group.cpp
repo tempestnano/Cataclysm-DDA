@@ -4,12 +4,12 @@
 #include <cstddef>
 #include <map>
 #include <string>
-#include <type_traits>
 #include <utility>
 
 #include "cata_assert.h"
 #include "debug.h"
 #include "json.h"
+#include "memory_fast.h"
 #include "mutation.h"
 #include "rng.h"
 #include "string_formatter.h"

@@ -2,11 +2,9 @@
 #ifndef CATA_SRC_RNG_H
 #define CATA_SRC_RNG_H
 
-#include <functional>
 #include <array>
 #include <cstddef>
 #include <functional>
-#include <iterator>
 #include <random>
 #include <type_traits>
 

@@ -1,5 +1,4 @@
 #include <climits>
-#include <iosfwd>
 #include <list>
 #include <memory>
 #include <string>

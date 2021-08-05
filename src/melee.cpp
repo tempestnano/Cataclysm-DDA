@@ -5,7 +5,6 @@
 #include <climits>
 #include <cmath>
 #include <cstdlib>
-#include <iosfwd>
 #include <limits>
 #include <list>
 #include <map>
@@ -16,8 +15,8 @@
 #include <vector>
 
 #include "avatar.h"
-#include "bodypart.h"
 #include "bionics.h"
+#include "bodypart.h"
 #include "cached_options.h"
 #include "calendar.h"
 #include "cata_utility.h"

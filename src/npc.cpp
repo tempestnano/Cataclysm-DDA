@@ -4,13 +4,11 @@
 #include <climits>
 #include <cmath>
 #include <cstdlib>
-#include <functional>
 #include <limits>
 #include <memory>
-#include <ostream>
 
-#include "activity_type.h"
 #include "activity_actor_definitions.h"
+#include "activity_type.h"
 #include "auto_pickup.h"
 #include "basecamp.h"
 #include "bodypart.h"
@@ -31,6 +29,7 @@
 #include "event_bus.h"
 #include "faction.h"
 #include "flag.h"
+#include "flat_set.h"
 #include "game.h"
 #include "game_constants.h"
 #include "game_inventory.h"
@@ -51,6 +50,7 @@
 #include "morale_types.h"
 #include "mtype.h"
 #include "mutation.h"
+#include "name.h"
 #include "npc_class.h"
 #include "npctalk.h"
 #include "options.h"
@@ -79,7 +79,6 @@
 #include "visitable.h"
 #include "vpart_position.h"
 #include "vpart_range.h"
-#include "name.h"
 
 
 static const efftype_id effect_bouldering( "bouldering" );

@@ -5,10 +5,8 @@
 #include <functional>
 #include <iosfwd>
 #include <iterator>
-#include <new>
 #include <string>
 #include <tuple>
-#include <type_traits>
 
 #include "cata_utility.h"
 #include "character.h"

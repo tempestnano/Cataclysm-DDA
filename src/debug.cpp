@@ -1,11 +1,10 @@
 #include "debug.h"
 
-#include <cctype>
+#include <errno.h>
 // IWYU pragma: no_include <sys/errno.h>
 #include <sys/stat.h>
-// IWYU pragma: no_include <sys/unistd.h>
-#include <clocale>
 #include <algorithm>
+#include <cctype>
 #include <cmath>
 #include <cstdint>
 #include <cstdio>
@@ -15,9 +14,9 @@
 #include <fstream>
 #include <iomanip>
 #include <iterator>
+#include <locale>
 #include <map>
 #include <memory>
-#include <new>
 #include <regex>
 #include <set>
 #include <sstream>
@@ -62,8 +61,8 @@
 #           include <backtrace.h>
 #       endif
 #   elif defined(__ANDROID__)
-#       include <unwind.h>
 #       include <dlfcn.h>
+#       include <unwind.h>
 #   else
 #       include <execinfo.h>
 #       include <unistd.h>

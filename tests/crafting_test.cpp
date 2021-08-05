@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <climits>
-#include <functional>
 #include <list>
 #include <map>
 #include <memory>
@@ -10,11 +9,10 @@
 #include <utility>
 #include <vector>
 
-#include "activity_type.h"
 #include "avatar.h"
 #include "calendar.h"
-#include "cata_utility.h"
 #include "cata_catch.h"
+#include "cata_utility.h"
 #include "character.h"
 #include "game.h"
 #include "inventory.h"

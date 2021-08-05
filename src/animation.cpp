@@ -33,13 +33,10 @@
 #endif
 
 #include <algorithm>
-#include <functional>
-#include <iosfwd>
 #include <iterator>
 #include <list>
 #include <map>
 #include <memory>
-#include <type_traits>
 #include <utility>
 #include <vector>
 

@@ -1,9 +1,9 @@
 #include "craft_command.h"
 
+#include <math.h>
 #include <algorithm>
 #include <climits>
 #include <cstdlib>
-#include <functional>
 #include <limits>
 #include <list>
 #include <string>

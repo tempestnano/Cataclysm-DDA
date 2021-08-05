@@ -5,7 +5,6 @@
 #include <iterator>
 #include <map>
 #include <memory>
-#include <new>
 #include <set>
 #include <string>
 #include <utility>

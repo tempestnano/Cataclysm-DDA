@@ -2,8 +2,8 @@
 #ifndef CATA_SRC_MOD_MANAGER_H
 #define CATA_SRC_MOD_MANAGER_H
 
+#include <algorithm>
 #include <cstddef>
-#include <iosfwd>
 #include <map>
 #include <set>
 #include <string>

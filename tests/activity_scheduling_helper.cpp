@@ -1,8 +1,10 @@
 #include "activity_scheduling_helper.h"
 
+#include <math.h>
 #include <climits>
 #include <cstdlib>
 #include <list>
+#include <memory>
 
 #include "avatar.h"
 #include "debug.h"

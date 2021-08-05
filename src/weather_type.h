@@ -2,23 +2,19 @@
 #ifndef CATA_SRC_WEATHER_TYPE_H
 #define CATA_SRC_WEATHER_TYPE_H
 
-#include <climits>
 #include <cstdint>
-#include <iosfwd>
-#include <new>
+#include <functional>
 #include <string>
 #include <vector>
 
 #include "calendar.h"
 #include "catacharset.h"
 #include "color.h"
-#include "damage.h"
-#include "dialogue.h"
-#include "optional.h"
 #include "translations.h"
 #include "type_id.h"
 
 class JsonObject;
+struct dialogue;
 template <typename E> struct enum_traits;
 template<typename T>
 class generic_factory;

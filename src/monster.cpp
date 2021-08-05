@@ -7,6 +7,7 @@
 #include <sstream>
 #include <string>
 #include <tuple>
+#include <type_traits>
 
 #include "ascii_art.h"
 #include "avatar.h"
@@ -28,9 +29,9 @@
 #include "game.h"
 #include "game_constants.h"
 #include "item.h"
-#include "item_group.h"
 #include "itype.h"
 #include "line.h"
+#include "magic.h"
 #include "make_static.h"
 #include "map.h"
 #include "map_iterator.h"
@@ -55,6 +56,7 @@
 #include "player.h"
 #include "projectile.h"
 #include "rng.h"
+#include "shearing.h"
 #include "sounds.h"
 #include "string_formatter.h"
 #include "text_snippets.h"

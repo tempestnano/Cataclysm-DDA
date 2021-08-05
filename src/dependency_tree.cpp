@@ -2,6 +2,7 @@
 
 #include <algorithm>
 #include <array>
+#include <iosfwd>
 #include <ostream>
 #include <set>
 #include <string>

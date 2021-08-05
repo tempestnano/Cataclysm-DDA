@@ -3,10 +3,10 @@
 #define CATA_SRC_MONFACTION_H
 
 #include <cstdint>
-#include <iosfwd>
 #include <limits>
 #include <map>
 #include <set>
+#include <string>
 #include <vector>
 
 #include "optional.h"

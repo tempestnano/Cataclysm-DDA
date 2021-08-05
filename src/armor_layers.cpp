@@ -3,14 +3,11 @@
 #include <algorithm>
 #include <climits>
 #include <cstddef>
-#include <functional>
 #include <iterator>
 #include <memory>
-#include <new>
 #include <string>
 #include <vector>
 
-#include "activity_type.h"
 #include "bodypart.h"
 #include "catacharset.h" // used for utf8_width()
 #include "character.h"

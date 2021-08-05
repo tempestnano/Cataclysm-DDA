@@ -1,5 +1,3 @@
-#include <new>
-
 #include "cata_catch.h"
 #include "optional.h"
 #include "text_snippets.h"

@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <cmath>
-#include <limits>
 #include <memory>
 #include <numeric>
 #include <sstream>
@@ -23,6 +22,7 @@
 #include "itype.h"
 #include "json.h"
 #include "mapgen_functions.h"
+#include "math_defines.h"
 #include "npc.h"
 #include "optional.h"
 #include "output.h"

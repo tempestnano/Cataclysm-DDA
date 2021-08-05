@@ -3,9 +3,9 @@
 #define CATA_SRC_EDITMAP_H
 
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <memory>
+#include <string>
 #include <vector>
 
 #include "color.h"

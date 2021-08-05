@@ -3,12 +3,15 @@
 #include <algorithm>
 #include <cstddef>
 #include <map>
+#include <memory>
 #include <unordered_set>
 
 #include "bodypart.h"
+#include "cata_variant.h"
 #include "color.h"
 #include "debug.h"
 #include "effect_source.h"
+#include "enum_conversions.h"
 #include "enums.h"
 #include "event.h"
 #include "generic_factory.h"

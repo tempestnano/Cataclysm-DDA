@@ -1,12 +1,11 @@
 #include "mod_manager.h"
 
 #include <algorithm>
-#include <functional>
+#include <iosfwd>
 #include <iterator>
 #include <memory>
 #include <ostream>
 #include <queue>
-#include <type_traits>
 
 #include "assign.h"
 #include "cata_utility.h"

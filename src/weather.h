@@ -8,14 +8,13 @@
 #include "coordinates.h"
 #include "optional.h"
 #include "pimpl.h"
-#include "point.h"
 #include "type_id.h"
 #include "weather_gen.h"
 #include "weather_type.h"
 
 class JsonIn;
-class JsonOut;
 class translation;
+struct tripoint;
 
 /**
  * @name BODYTEMP
@@ -43,8 +42,7 @@ static constexpr int BODYTEMP_SCORCHING = 9500;
 ///@}
 
 #include <cstdint>
-#include <iosfwd>
-#include <map>
+#include <string>
 #include <unordered_map>
 #include <utility>
 #include <vector>

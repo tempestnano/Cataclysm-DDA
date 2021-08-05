@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_FACTION_CAMP_H
 #define CATA_SRC_FACTION_CAMP_H
 
-#include <iosfwd>
+#include <string>
 #include <utility>
 #include <vector>
 
@@ -17,6 +17,7 @@ class window;
 class npc;
 struct mission_entry;
 struct point;
+
 namespace base_camps
 {
 enum tab_mode : int;

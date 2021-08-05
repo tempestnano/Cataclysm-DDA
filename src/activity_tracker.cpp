@@ -1,11 +1,14 @@
 #include "activity_tracker.h"
 
+#include <algorithm>
+#include <cmath>
+#include <limits>
+#include <map>
+#include <utility>
+
 #include "game_constants.h"
 #include "options.h"
 #include "string_formatter.h"
-
-#include <cmath>
-#include <limits>
 
 int activity_tracker::weariness() const
 {

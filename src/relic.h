@@ -2,9 +2,10 @@
 #ifndef CATA_SRC_RELIC_H
 #define CATA_SRC_RELIC_H
 
+#include <algorithm>
 #include <climits>
 #include <cmath>
-#include <iosfwd>
+#include <string>
 #include <utility>
 #include <vector>
 

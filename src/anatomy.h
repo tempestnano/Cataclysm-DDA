@@ -2,7 +2,8 @@
 #ifndef CATA_SRC_ANATOMY_H
 #define CATA_SRC_ANATOMY_H
 
-#include <iosfwd>
+#include <algorithm>
+#include <string>
 #include <vector>
 
 #include "bodypart.h"

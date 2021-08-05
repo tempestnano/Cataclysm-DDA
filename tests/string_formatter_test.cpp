@@ -1,8 +1,7 @@
 #include <cstddef>
-#include <iosfwd>
 #include <limits>
 #include <string>
-#include <type_traits>
+#include <utility>
 
 #include "cata_catch.h"
 #include "string_formatter.h"

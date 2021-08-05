@@ -1,8 +1,6 @@
 #include <algorithm>
 #include <functional>
-#include <iosfwd>
 #include <memory>
-#include <new>
 #include <string>
 #include <utility>
 #include <vector>

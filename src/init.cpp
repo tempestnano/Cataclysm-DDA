@@ -41,6 +41,7 @@
 #include "flag.h"
 #include "gates.h"
 #include "harvest.h"
+#include "input.h"
 #include "item_action.h"
 #include "item_category.h"
 #include "item_factory.h"

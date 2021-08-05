@@ -8,11 +8,11 @@
 #include <tuple>
 #include <utility>
 
-#include "avatar.h"
 #include "calendar.h"
 #include "cata_utility.h"
 #include "catacharset.h"
 #include "character.h"
+#include "character_id.h"
 #include "color.h"
 #include "creature.h"
 #include "cursesdef.h"
@@ -31,8 +31,8 @@
 #include "item.h"
 #include "json.h"
 #include "line.h"
-#include "make_static.h"
 #include "magic_enchantment.h"
+#include "make_static.h"
 #include "map.h"
 #include "map_iterator.h"
 #include "messages.h"
@@ -40,7 +40,6 @@
 #include "monster.h"
 #include "mtype.h"
 #include "mutation.h"
-#include "npc.h"
 #include "output.h"
 #include "pimpl.h"
 #include "point.h"

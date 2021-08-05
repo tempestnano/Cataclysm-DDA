@@ -1,8 +1,6 @@
 #include "live_view.h"
 
 #include <algorithm> // min & max
-#include <functional>
-#include <iosfwd>
 #include <memory>
 #include <string>
 

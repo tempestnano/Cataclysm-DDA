@@ -35,7 +35,7 @@
 #include "coordinates.h"
 #include "cuboid_rectangle.h"
 #include "cursesdef.h"
-#include "cursesport.h"
+#include "cursesport.h" // IWYU pragma: keep
 #include "enums.h"
 #include "game.h"
 #include "game_constants.h"
@@ -60,7 +60,7 @@
 #include "point.h"
 #include "regional_settings.h"
 #include "rng.h"
-#include "sdltiles.h"
+#include "sdltiles.h" // IWYU pragma: keep
 #include "sounds.h"
 #include "string_formatter.h"
 #include "string_input_popup.h"

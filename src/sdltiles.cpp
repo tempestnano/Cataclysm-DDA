@@ -70,6 +70,7 @@
 #include "sdlsound.h"
 #include "string_formatter.h"
 #include "ui_manager.h"
+#include "uistate.h" // IWYU pragma: keep
 #include "wcwidth.h"
 
 #if defined(__linux__)

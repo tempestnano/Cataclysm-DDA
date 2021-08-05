@@ -8,7 +8,7 @@
 #include <utility>
 #include <vector>
 
-#include "map_extras.h"
+#include "map_extras.h" // IWYU pragma: keep
 #include "string_id.h"
 
 namespace auto_notes

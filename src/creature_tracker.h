@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "memory_fast.h"
-#include "point.h"
+#include "point.h" // IWYU pragma: keep
 #include "type_id.h"
 
 class JsonIn;

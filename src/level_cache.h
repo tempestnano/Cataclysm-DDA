@@ -10,7 +10,7 @@
 
 #include "game_constants.h"
 #include "lightmap.h"
-#include "point.h"
+#include "point.h" // IWYU pragma: keep
 #include "reachability_cache.h"
 #include "shadowcasting.h"
 #include "value_ptr.h"

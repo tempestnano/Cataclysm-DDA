@@ -14,7 +14,6 @@
 #include <utility>
 #include <vector>
 
-#include "/home/kevingranade/Cataclysm-DDA/src/units_fwd.h"
 #include "json.h"
 #include "math_defines.h"
 #include "translations.h"

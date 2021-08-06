@@ -1,7 +1,6 @@
 #include "debug_menu.h"
 
 #include <cstdint>
-#include <iosfwd>
 #include <tuple>
 // IWYU pragma: no_include <sys/signal.h>
 // IWYU pragma: no_include <cxxabi.h>
@@ -35,6 +34,7 @@
 #include "character.h"
 #include "character_id.h"
 #include "character_martial_arts.h"
+#include "clzones.h"
 #include "color.h"
 #include "coordinates.h"
 #include "creature.h"

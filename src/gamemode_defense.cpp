@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <cstddef>
-#include <iosfwd>
 #include <memory>
 #include <ostream>
 #include <string>

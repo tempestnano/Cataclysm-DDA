@@ -1,13 +1,14 @@
 #include "overmapbuffer.h"
 
-#include <stddef.h>
 #include <algorithm>
 #include <climits>
+#include <cstddef>
 #include <iterator>
 #include <list>
 #include <map>
 #include <string>
 #include <tuple>
+#include <type_traits>
 
 #include "basecamp.h"
 #include "calendar.h"

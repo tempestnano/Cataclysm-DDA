@@ -1,6 +1,5 @@
 #include <cstddef>
 #include <exception>
-#include <iosfwd>
 #include <memory>
 #include <ostream>
 #include <type_traits>

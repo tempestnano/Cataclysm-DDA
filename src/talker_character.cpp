@@ -1,6 +1,5 @@
 #include <memory>
 
-#include "bodypart.h"
 #include "calendar.h"
 #include "character.h"
 #include "character_id.h"

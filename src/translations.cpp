@@ -1,9 +1,9 @@
 #include "translations.h"
 
-#include <stdlib.h>
-#include <string.h>
 #include <array>
 #include <clocale>
+#include <cstdlib>
+#include <cstring>
 #include <iterator>
 #include <locale>
 

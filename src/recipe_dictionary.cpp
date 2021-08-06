@@ -1,8 +1,8 @@
 #include "recipe_dictionary.h"
 
-#include <ctype.h>
-#include <limits.h>
 #include <algorithm>
+#include <cctype>
+#include <climits>
 #include <iterator>
 #include <memory>
 #include <unordered_map>

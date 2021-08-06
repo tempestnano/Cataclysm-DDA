@@ -1,9 +1,9 @@
 #include "do_turn.h"
 
-#include <stddef.h>
-#include <stdint.h>
 #include <algorithm>
 #include <chrono>
+#include <cstddef>
+#include <cstdint>
 #include <list>
 #include <memory>
 #include <ostream>

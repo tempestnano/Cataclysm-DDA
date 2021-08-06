@@ -3,7 +3,6 @@
 #include <cfloat>
 #include <climits>
 #include <clocale>
-#include <iosfwd>
 #include <iterator>
 #include <locale>
 #include <stdexcept>

@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstdlib>
 #include <functional>
-#include <iosfwd>
 #include <iostream>
 #include <iterator>
 #include <list>
@@ -25,6 +24,7 @@
 #include "catacharset.h"
 #include "character.h"
 #include "character_id.h"
+#include "clzones.h"
 #include "debug.h"
 #include "enums.h"
 #include "faction.h"

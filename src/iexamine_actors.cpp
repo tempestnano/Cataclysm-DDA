@@ -1,6 +1,6 @@
 #include "iexamine_actors.h"
 
-#include <stddef.h>
+#include <cstddef>
 #include <algorithm>
 #include <utility>
 

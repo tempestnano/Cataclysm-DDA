@@ -8,7 +8,6 @@
 #include <vector>
 
 #include "behavior.h"
-#include "bodypart.h"
 #include "calendar.h"
 #include "color.h"
 #include "damage.h"

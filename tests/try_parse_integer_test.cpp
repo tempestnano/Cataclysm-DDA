@@ -1,6 +1,7 @@
-#include <locale.h>
+#include <clocale>
 #include <locale>
 #include <stdexcept>
+#include <string>
 
 #include "cata_catch.h"
 #include "ret_val.h"

@@ -1,8 +1,8 @@
 #include "rotatable_symbols.h"
 
-#include <math.h>
 #include <algorithm>
 #include <array>
+#include <cmath>
 #include <cstdint>
 #include <cstdlib>
 #include <string>

@@ -24,7 +24,6 @@
 #endif
 #include <algorithm>
 #include <deque>
-#include <iosfwd>
 #include <iterator>
 #include <list>
 #include <memory>

@@ -1,10 +1,9 @@
 #include "avatar_action.h"
 
-#include <math.h>
 #include <algorithm>
 #include <climits>
+#include <cmath>
 #include <cstdlib>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <ostream>

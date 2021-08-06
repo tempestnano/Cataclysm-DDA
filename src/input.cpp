@@ -6,7 +6,6 @@
 #include <cstddef>
 #include <exception>
 #include <fstream>
-#include <iosfwd>
 #include <iterator>
 #include <locale>
 #include <memory>

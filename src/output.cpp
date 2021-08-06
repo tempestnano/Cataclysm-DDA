@@ -1,6 +1,6 @@
 #include "output.h"
 
-#include <errno.h>
+#include <cerrno>
 // IWYU pragma: no_include <sys/errno.h>
 #include <algorithm>
 #include <array>

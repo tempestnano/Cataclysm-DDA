@@ -1,12 +1,13 @@
 #include "player.h" // IWYU pragma: associated
 
-#include <math.h>
 #include <array>
+#include <cmath>
 #include <cstdlib>
 #include <memory>
 #include <string>
 
 #include "activity_handlers.h"
+#include "activity_type.h"
 #include "bodypart.h"
 #include "calendar.h"
 #include "character.h"

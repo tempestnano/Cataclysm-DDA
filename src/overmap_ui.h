@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_OVERMAP_UI_H
 #define CATA_SRC_OVERMAP_UI_H
 
-#include <stddef.h>
+#include <cstddef>
 #include <string>
 #include <tuple>
 

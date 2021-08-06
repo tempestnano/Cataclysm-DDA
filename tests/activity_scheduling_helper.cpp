@@ -1,7 +1,7 @@
 #include "activity_scheduling_helper.h"
 
-#include <math.h>
 #include <climits>
+#include <cmath>
 #include <cstdlib>
 #include <list>
 #include <memory>

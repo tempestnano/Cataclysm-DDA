@@ -2,7 +2,6 @@
 
 #include <algorithm>
 #include <fstream>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <string>

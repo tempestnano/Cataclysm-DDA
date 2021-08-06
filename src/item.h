@@ -2,7 +2,7 @@
 #ifndef CATA_SRC_ITEM_H
 #define CATA_SRC_ITEM_H
 
-#include <stddef.h>
+#include <cstddef>
 #include <algorithm>
 #include <climits>
 #include <cstdint>

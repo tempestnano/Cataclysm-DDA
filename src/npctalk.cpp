@@ -4,7 +4,6 @@
 #include <array>
 #include <cmath>
 #include <cstddef>
-#include <iosfwd>
 #include <iterator>
 #include <list>
 #include <map>

@@ -1,7 +1,6 @@
 #include <string>
 
 #include "activity_actor_definitions.h"
-#include "activity_type.h"
 #include "avatar.h"
 #include "calendar.h"
 #include "catch/catch.hpp"

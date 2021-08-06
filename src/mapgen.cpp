@@ -5,7 +5,6 @@
 #include <cmath>
 #include <cstdlib>
 #include <functional>
-#include <iosfwd>
 #include <map>
 #include <memory>
 #include <ostream>
@@ -29,7 +28,6 @@
 #include "drawing_primitives.h"
 #include "enum_conversions.h"
 #include "enums.h"
-#include "faction.h"
 #include "field_type.h"
 #include "game.h"
 #include "game_constants.h"

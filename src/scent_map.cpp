@@ -1,7 +1,7 @@
 #include "scent_map.h"
 
-#include <math.h>
 #include <algorithm>
+#include <cmath>
 #include <cstdlib>
 
 #include "assign.h"

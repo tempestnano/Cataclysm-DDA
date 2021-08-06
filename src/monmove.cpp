@@ -6,7 +6,6 @@
 #include <climits>
 #include <cmath>
 #include <cstdlib>
-#include <iosfwd>
 #include <iterator>
 #include <list>
 #include <memory>

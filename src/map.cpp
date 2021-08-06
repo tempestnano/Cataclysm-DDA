@@ -6,7 +6,6 @@
 #include <cmath>
 #include <cstdlib>
 #include <cstring>
-#include <iosfwd>
 #include <numeric>
 #include <ostream>
 #include <queue>

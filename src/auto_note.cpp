@@ -1,6 +1,6 @@
 #include "auto_note.h"
 
-#include <stddef.h>
+#include <cstddef>
 #include <iosfwd>
 #include <iterator>
 #include <string>

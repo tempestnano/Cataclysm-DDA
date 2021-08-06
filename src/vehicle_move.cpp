@@ -4,7 +4,6 @@
 #include <array>
 #include <cmath>
 #include <cstdlib>
-#include <iosfwd>
 #include <memory>
 #include <ostream>
 #include <set>

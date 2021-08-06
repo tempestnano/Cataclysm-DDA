@@ -1,6 +1,6 @@
 #include "debug.h"
 
-#include <errno.h>
+#include <cerrno>
 // IWYU pragma: no_include <sys/errno.h>
 #include <sys/stat.h>
 #include <algorithm>

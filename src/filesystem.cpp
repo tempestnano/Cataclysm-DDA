@@ -1,6 +1,6 @@
 #include "filesystem.h"
 
-#include <errno.h>
+#include <cerrno>
 // IWYU pragma: no_include <sys/dirent.h>
 // IWYU pragma: no_include <sys/errno.h>
 // FILE I/O
